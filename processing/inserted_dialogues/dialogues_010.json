@@ -1,0 +1,2523 @@
+[
+      {
+            "dialogue_id": "SSNG0019.json",
+            "services": [
+                  "restaurant"
+            ],
+            "turns": [
+                  {
+                        "speaker": "USER",
+                        "turn_id": "0",
+                        "utterance": "I'm looking for a thai restaurant on the west side.",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 22,
+                                                "slot": "restaurant-food",
+                                                "start": 18,
+                                                "value": "thai"
+                                          }
+                                    ],
+                                    "state": {
+                                          "active_intent": "find_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-area": [
+                                                      "west"
+                                                ],
+                                                "restaurant-food": [
+                                                      "thai"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 10,
+                                                "slot": "restaurant-name",
+                                                "start": 0,
+                                                "value": "Sala thong"
+                                          }
+                                    ]
+                              }
+                        ],
+                        "speaker": "SYSTEM",
+                        "turn_id": "1",
+                        "utterance": "Sala thong is a thai restaurant on the west side that is expensive. Do you want me to book it for you?"
+                  },
+                  {
+                        "speaker": "USER",
+                        "turn_id": "2",
+                        "utterance": "Yes, please. Could you book it for 5 people on sunday?",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [],
+                                    "state": {
+                                          "active_intent": "find_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-area": [
+                                                      "west"
+                                                ],
+                                                "restaurant-food": [
+                                                      "thai"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "3",
+                        "utterance": "Yes of course. What time would you like me to make your reservation?"
+                  },
+                  {
+                        "speaker": "USER",
+                        "turn_id": "4",
+                        "utterance": "I would like a table for 13:00.",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 30,
+                                                "slot": "restaurant-booktime",
+                                                "start": 25,
+                                                "value": "13:00"
+                                          }
+                                    ],
+                                    "state": {
+                                          "active_intent": "book_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-area": [
+                                                      "west"
+                                                ],
+                                                "restaurant-bookday": [
+                                                      "sunday"
+                                                ],
+                                                "restaurant-bookpeople": [
+                                                      "5"
+                                                ],
+                                                "restaurant-booktime": [
+                                                      "13:00"
+                                                ],
+                                                "restaurant-food": [
+                                                      "thai"
+                                                ],
+                                                "restaurant-name": [
+                                                      "sala thong"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "5",
+                        "utterance": "I was unable to book that, would you like me to try a different time or different restaurant?"
+                  },
+                  {
+                        "speaker": "USER",
+                        "turn_id": "6",
+                        "utterance": "Yes, please find me another restaurant in the same price range on the west side.",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [],
+                                    "state": {
+                                          "active_intent": "book_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-area": [
+                                                      "west"
+                                                ],
+                                                "restaurant-bookday": [
+                                                      "sunday"
+                                                ],
+                                                "restaurant-bookpeople": [
+                                                      "5"
+                                                ],
+                                                "restaurant-booktime": [
+                                                      "13:00"
+                                                ],
+                                                "restaurant-pricerange": [
+                                                      "expensive"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 15,
+                                                "slot": "restaurant-name",
+                                                "start": 10,
+                                                "value": "Cocum"
+                                          }
+                                    ]
+                              }
+                        ],
+                        "speaker": "SYSTEM",
+                        "turn_id": "7",
+                        "utterance": "How about Cocum? It's an expensive Indian restaurant on the west side."
+                  },
+                  {
+                        "speaker": "USER",
+                        "turn_id": "8",
+                        "utterance": "What other attractions are there in the neighborhood?",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [],
+                                    "state": {
+                                          "active_intent": "book_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-area": [
+                                                      "west"
+                                                ],
+                                                "restaurant-bookday": [
+                                                      "sunday"
+                                                ],
+                                                "restaurant-bookpeople": [
+                                                      "5"
+                                                ],
+                                                "restaurant-booktime": [
+                                                      "13:00"
+                                                ],
+                                                "restaurant-pricerange": [
+                                                      "expensive"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 15,
+                                                "slot": "restaurant-name",
+                                                "start": 10,
+                                                "value": "Cocum"
+                                          }
+                                    ]
+                              }
+                        ],
+                        "speaker": "SYSTEM",
+                        "turn_id": "9",
+                        "utterance": "I don't know."
+                  }
+            ]
+      },
+      {
+            "dialogue_id": "SNG02106.json",
+            "services": [
+                  "restaurant"
+            ],
+            "turns": [
+                  {
+                        "speaker": "USER",
+                        "turn_id": "0",
+                        "utterance": "I'd like to find an expensive place to dine that specifically serves italian food.",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 76,
+                                                "slot": "restaurant-food",
+                                                "start": 69,
+                                                "value": "italian"
+                                          }
+                                    ],
+                                    "state": {
+                                          "active_intent": "find_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-food": [
+                                                      "italian"
+                                                ],
+                                                "restaurant-pricerange": [
+                                                      "expensive"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "1",
+                        "utterance": "Okay. Would you like to go to the centre or south part of town?"
+                  },
+                  {
+                        "speaker": "USER",
+                        "turn_id": "2",
+                        "utterance": "Is it possible to get family platters?",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 76,
+                                                "slot": "restaurant-food",
+                                                "start": 69,
+                                                "value": "italian"
+                                          }
+                                    ],
+                                    "state": {
+                                          "active_intent": "find_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-food": [
+                                                      "italian"
+                                                ],
+                                                "restaurant-pricerange": [
+                                                      "expensive"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "3",
+                        "utterance": "I don't know."
+                  }
+            ]
+      },
+      {
+            "dialogue_id": "SSNG0029.json",
+            "services": [
+                  "restaurant"
+            ],
+            "turns": [
+                  {
+                        "speaker": "USER",
+                        "turn_id": "0",
+                        "utterance": "I need a place to eat that serves traditional food in the centre.",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 45,
+                                                "slot": "restaurant-food",
+                                                "start": 34,
+                                                "value": "traditional"
+                                          }
+                                    ],
+                                    "state": {
+                                          "active_intent": "find_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-area": [
+                                                      "centre"
+                                                ],
+                                                "restaurant-food": [
+                                                      "traditional"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "1",
+                        "utterance": "I am sorry there are no listings for that type of place, can I help you find one in another area?"
+                  },
+                  {
+                        "speaker": "USER",
+                        "turn_id": "2",
+                        "utterance": "Are there any cheap places to eat that serve traditional food in other areas of the city?",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [],
+                                    "state": {
+                                          "active_intent": "find_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-food": [
+                                                      "traditional"
+                                                ],
+                                                "restaurant-pricerange": [
+                                                      "cheap"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "3",
+                        "utterance": "I am sorry but there is no traditional food in the cheap price range. Do you want a different type of cuisine or price range?"
+                  },
+                  {
+                        "speaker": "USER",
+                        "turn_id": "4",
+                        "utterance": "How about ones that serve italian food?",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 33,
+                                                "slot": "restaurant-food",
+                                                "start": 26,
+                                                "value": "italian"
+                                          }
+                                    ],
+                                    "state": {
+                                          "active_intent": "find_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-food": [
+                                                      "italian"
+                                                ],
+                                                "restaurant-pricerange": [
+                                                      "cheap"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "5",
+                        "utterance": "I have 3 cheap Italian restaurants located in the centre of the city. Would you like to hear them?"
+                  },
+                  {
+                        "speaker": "USER",
+                        "turn_id": "6",
+                        "utterance": "Are the desserts on par with the main courses?",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 33,
+                                                "slot": "restaurant-food",
+                                                "start": 26,
+                                                "value": "italian"
+                                          }
+                                    ],
+                                    "state": {
+                                          "active_intent": "find_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-food": [
+                                                      "italian"
+                                                ],
+                                                "restaurant-pricerange": [
+                                                      "cheap"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "7",
+                        "utterance": "I don't know."
+                  }
+            ]
+      },
+      {
+            "dialogue_id": "SSNG0068.json",
+            "services": [
+                  "restaurant"
+            ],
+            "turns": [
+                  {
+                        "speaker": "USER",
+                        "turn_id": "0",
+                        "utterance": "Could you recommend an expensive restaurant in the city centre?",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [],
+                                    "state": {
+                                          "active_intent": "find_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-area": [
+                                                      "centre"
+                                                ],
+                                                "restaurant-pricerange": [
+                                                      "expensive"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "1",
+                        "utterance": "I show several restaurants in the City Centre. If you could perhaps indicate what type of food you would like it would narrow my search further."
+                  },
+                  {
+                        "speaker": "USER",
+                        "turn_id": "2",
+                        "utterance": "It's for my friend's birthday and he really likes Thai food.",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 54,
+                                                "slot": "restaurant-food",
+                                                "start": 50,
+                                                "value": "Thai"
+                                          }
+                                    ],
+                                    "state": {
+                                          "active_intent": "find_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-area": [
+                                                      "centre"
+                                                ],
+                                                "restaurant-food": [
+                                                      "thai"
+                                                ],
+                                                "restaurant-pricerange": [
+                                                      "expensive"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "3",
+                        "utterance": "I can book a table at bangkok city for 2 when would you like the reservation?"
+                  },
+                  {
+                        "speaker": "USER",
+                        "turn_id": "4",
+                        "utterance": "Since I like Chinese food, could you see if any restaurants serve both Thai and Chinese food?",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 87,
+                                                "slot": "restaurant-food",
+                                                "start": 71,
+                                                "value": "Thai and Chinese"
+                                          }
+                                    ],
+                                    "state": {
+                                          "active_intent": "find_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-area": [
+                                                      "centre"
+                                                ],
+                                                "restaurant-food": [
+                                                      "thai and chinese"
+                                                ],
+                                                "restaurant-pricerange": [
+                                                      "expensive"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "5",
+                        "utterance": "I apologize I do not have any listed that serve both cuisines. Would you prefer one type of food?"
+                  },
+                  {
+                        "speaker": "USER",
+                        "turn_id": "6",
+                        "utterance": "Lets go with chinese food. He likes chinese just as much. Can you recommend one in the centre?",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 20,
+                                                "slot": "restaurant-food",
+                                                "start": 13,
+                                                "value": "chinese"
+                                          }
+                                    ],
+                                    "state": {
+                                          "active_intent": "find_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-area": [
+                                                      "centre"
+                                                ],
+                                                "restaurant-food": [
+                                                      "chinese"
+                                                ],
+                                                "restaurant-pricerange": [
+                                                      "expensive"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 24,
+                                                "slot": "restaurant-name",
+                                                "start": 11,
+                                                "value": "ugly duckling"
+                                          }
+                                    ]
+                              }
+                        ],
+                        "speaker": "SYSTEM",
+                        "turn_id": "7",
+                        "utterance": "I have the ugly duckling in the centre. Would you like to make a reservation there?"
+                  },
+                  {
+                        "speaker": "USER",
+                        "turn_id": "8",
+                        "utterance": "Is it possible to adjust the amount of spice?",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 20,
+                                                "slot": "restaurant-food",
+                                                "start": 13,
+                                                "value": "chinese"
+                                          }
+                                    ],
+                                    "state": {
+                                          "active_intent": "find_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-area": [
+                                                      "centre"
+                                                ],
+                                                "restaurant-food": [
+                                                      "chinese"
+                                                ],
+                                                "restaurant-pricerange": [
+                                                      "expensive"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 24,
+                                                "slot": "restaurant-name",
+                                                "start": 11,
+                                                "value": "ugly duckling"
+                                          }
+                                    ]
+                              }
+                        ],
+                        "speaker": "SYSTEM",
+                        "turn_id": "9",
+                        "utterance": "I don't know."
+                  }
+            ]
+      },
+      {
+            "dialogue_id": "MUL1231.json",
+            "services": [
+                  "restaurant"
+            ],
+            "turns": [
+                  {
+                        "speaker": "USER",
+                        "turn_id": "0",
+                        "utterance": "Can you help me find a place to eat located in the centre that serves british food?",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 77,
+                                                "slot": "restaurant-food",
+                                                "start": 70,
+                                                "value": "british"
+                                          }
+                                    ],
+                                    "state": {
+                                          "active_intent": "find_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-area": [
+                                                      "centre"
+                                                ],
+                                                "restaurant-food": [
+                                                      "british"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "1",
+                        "utterance": "There are 7 places in the centre area that serve British cuisine, do you have a preference on price range?"
+                  },
+                  {
+                        "speaker": "USER",
+                        "turn_id": "2",
+                        "utterance": "Is there an ice cream shop in the area?",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 77,
+                                                "slot": "restaurant-food",
+                                                "start": 70,
+                                                "value": "british"
+                                          }
+                                    ],
+                                    "state": {
+                                          "active_intent": "find_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-area": [
+                                                      "centre"
+                                                ],
+                                                "restaurant-food": [
+                                                      "british"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "3",
+                        "utterance": "I don't know."
+                  }
+            ]
+      },
+      {
+            "dialogue_id": "SNG0578.json",
+            "services": [
+                  "restaurant"
+            ],
+            "turns": [
+                  {
+                        "speaker": "USER",
+                        "turn_id": "0",
+                        "utterance": "I am looking for some info on rice house restaurant.",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 40,
+                                                "slot": "restaurant-name",
+                                                "start": 30,
+                                                "value": "rice house"
+                                          }
+                                    ],
+                                    "state": {
+                                          "active_intent": "find_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-name": [
+                                                      "rice house"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "1",
+                        "utterance": "Rice house has cheap food and is located at 88 Mill Road City Centre. May I book a table for you?"
+                  },
+                  {
+                        "speaker": "USER",
+                        "turn_id": "2",
+                        "utterance": "Is there halal cuisine on the menu?",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 40,
+                                                "slot": "restaurant-name",
+                                                "start": 30,
+                                                "value": "rice house"
+                                          }
+                                    ],
+                                    "state": {
+                                          "active_intent": "find_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-name": [
+                                                      "rice house"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "3",
+                        "utterance": "I don't know."
+                  }
+            ]
+      },
+      {
+            "dialogue_id": "SNG0632.json",
+            "services": [
+                  "restaurant"
+            ],
+            "turns": [
+                  {
+                        "speaker": "USER",
+                        "turn_id": "0",
+                        "utterance": "Is there a place appropriate for a business meeting?",
+                        "frames": []
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "1",
+                        "utterance": "I don't know."
+                  }
+            ]
+      },
+      {
+            "dialogue_id": "SNG0632.json",
+            "services": [
+                  "restaurant"
+            ],
+            "turns": [
+                  {
+                        "speaker": "USER",
+                        "turn_id": "0",
+                        "utterance": "Hello, I am looking for a restaurant by the name of Royal Standard. Do you know where it is?",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 66,
+                                                "slot": "restaurant-name",
+                                                "start": 52,
+                                                "value": "Royal Standard"
+                                          }
+                                    ],
+                                    "state": {
+                                          "active_intent": "find_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-name": [
+                                                      "royal standard"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "1",
+                        "utterance": "Yes, royal standard is in the city centre at 290 Mill Road."
+                  },
+                  {
+                        "speaker": "USER",
+                        "turn_id": "2",
+                        "utterance": "How long should you wait to be served?",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 66,
+                                                "slot": "restaurant-name",
+                                                "start": 52,
+                                                "value": "Royal Standard"
+                                          }
+                                    ],
+                                    "state": {
+                                          "active_intent": "find_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-name": [
+                                                      "royal standard"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "3",
+                        "utterance": "I don't know."
+                  }
+            ]
+      },
+      {
+            "dialogue_id": "SSNG0115.json",
+            "services": [
+                  "restaurant"
+            ],
+            "turns": [
+                  {
+                        "speaker": "USER",
+                        "turn_id": "0",
+                        "utterance": "Can you help me find a Chinese restaurant please?",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 30,
+                                                "slot": "restaurant-food",
+                                                "start": 23,
+                                                "value": "Chinese"
+                                          }
+                                    ],
+                                    "state": {
+                                          "active_intent": "find_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-food": [
+                                                      "chinese"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "1",
+                        "utterance": "I'm sure I can. We have 17 chinese restaurants. Is there an area of town you'd prefer?"
+                  },
+                  {
+                        "speaker": "USER",
+                        "turn_id": "2",
+                        "utterance": "I would like to be in the centre of town, and if it could be inexpensive, that would be ideal.",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [],
+                                    "state": {
+                                          "active_intent": "find_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-area": [
+                                                      "centre"
+                                                ],
+                                                "restaurant-food": [
+                                                      "chinese"
+                                                ],
+                                                "restaurant-pricerange": [
+                                                      "cheap"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 26,
+                                                "slot": "restaurant-name",
+                                                "start": 14,
+                                                "value": "Charlie Chan"
+                                          }
+                                    ]
+                              }
+                        ],
+                        "speaker": "SYSTEM",
+                        "turn_id": "3",
+                        "utterance": "How about the Charlie Chan restaurant?"
+                  },
+                  {
+                        "speaker": "USER",
+                        "turn_id": "4",
+                        "utterance": "Do they have a table available for 5 people on Wednesday night?",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [],
+                                    "state": {
+                                          "active_intent": "book_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-area": [
+                                                      "centre"
+                                                ],
+                                                "restaurant-bookday": [
+                                                      "wednesday"
+                                                ],
+                                                "restaurant-bookpeople": [
+                                                      "5"
+                                                ],
+                                                "restaurant-food": [
+                                                      "chinese"
+                                                ],
+                                                "restaurant-name": [
+                                                      "charlie chan"
+                                                ],
+                                                "restaurant-pricerange": [
+                                                      "cheap"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "5",
+                        "utterance": "For what time please?"
+                  },
+                  {
+                        "speaker": "USER",
+                        "turn_id": "6",
+                        "utterance": "I would like the reservation at 19:30 please.",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 37,
+                                                "slot": "restaurant-booktime",
+                                                "start": 32,
+                                                "value": "19:30"
+                                          }
+                                    ],
+                                    "state": {
+                                          "active_intent": "book_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-area": [
+                                                      "centre"
+                                                ],
+                                                "restaurant-bookday": [
+                                                      "wednesday"
+                                                ],
+                                                "restaurant-bookpeople": [
+                                                      "5"
+                                                ],
+                                                "restaurant-booktime": [
+                                                      "19:30"
+                                                ],
+                                                "restaurant-food": [
+                                                      "chinese"
+                                                ],
+                                                "restaurant-name": [
+                                                      "charlie chan"
+                                                ],
+                                                "restaurant-pricerange": [
+                                                      "cheap"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "7",
+                        "utterance": "I'm sorry but I was unable to make a booking. Could we try another day or time?"
+                  },
+                  {
+                        "speaker": "USER",
+                        "turn_id": "8",
+                        "utterance": "Can you try a different restaurant in the same area and price range?",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [],
+                                    "state": {
+                                          "active_intent": "book_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-area": [
+                                                      "centre"
+                                                ],
+                                                "restaurant-bookday": [
+                                                      "wednesday"
+                                                ],
+                                                "restaurant-bookpeople": [
+                                                      "5"
+                                                ],
+                                                "restaurant-booktime": [
+                                                      "19:30"
+                                                ],
+                                                "restaurant-food": [
+                                                      "chinese"
+                                                ],
+                                                "restaurant-pricerange": [
+                                                      "cheap"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "9",
+                        "utterance": "I am sorry there are no others in the same area and price range."
+                  },
+                  {
+                        "speaker": "USER",
+                        "turn_id": "10",
+                        "utterance": "What about another restaurant in a different area but same price range?",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [],
+                                    "state": {
+                                          "active_intent": "book_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-bookday": [
+                                                      "wednesday"
+                                                ],
+                                                "restaurant-bookpeople": [
+                                                      "5"
+                                                ],
+                                                "restaurant-booktime": [
+                                                      "19:30"
+                                                ],
+                                                "restaurant-food": [
+                                                      "chinese"
+                                                ],
+                                                "restaurant-pricerange": [
+                                                      "cheap"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "11",
+                        "utterance": "I am sorry there are no others in any other areas,could I check another price range?"
+                  },
+                  {
+                        "speaker": "USER",
+                        "turn_id": "12",
+                        "utterance": "No thank you I need it in that area and pricerange.",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [],
+                                    "state": {
+                                          "active_intent": "book_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-bookday": [
+                                                      "wednesday"
+                                                ],
+                                                "restaurant-bookpeople": [
+                                                      "5"
+                                                ],
+                                                "restaurant-booktime": [
+                                                      "19:30"
+                                                ],
+                                                "restaurant-pricerange": [
+                                                      "cheap"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 67,
+                                                "slot": "restaurant-name",
+                                                "start": 52,
+                                                "value": "Dojo Noodle Bar"
+                                          },
+                                          {
+                                                "exclusive_end": 26,
+                                                "slot": "restaurant-food",
+                                                "start": 12,
+                                                "value": "asian oriental"
+                                          }
+                                    ]
+                              }
+                        ],
+                        "speaker": "SYSTEM",
+                        "turn_id": "13",
+                        "utterance": "There is an asian oriental cheap restaurants called Dojo Noodle Bar. Would you like to book there instead?"
+                  },
+                  {
+                        "speaker": "USER",
+                        "turn_id": "14",
+                        "utterance": "Is there a no-show policy in effect at the restaurant?",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [],
+                                    "state": {
+                                          "active_intent": "book_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-bookday": [
+                                                      "wednesday"
+                                                ],
+                                                "restaurant-bookpeople": [
+                                                      "5"
+                                                ],
+                                                "restaurant-booktime": [
+                                                      "19:30"
+                                                ],
+                                                "restaurant-pricerange": [
+                                                      "cheap"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 67,
+                                                "slot": "restaurant-name",
+                                                "start": 52,
+                                                "value": "Dojo Noodle Bar"
+                                          },
+                                          {
+                                                "exclusive_end": 26,
+                                                "slot": "restaurant-food",
+                                                "start": 12,
+                                                "value": "asian oriental"
+                                          }
+                                    ]
+                              }
+                        ],
+                        "speaker": "SYSTEM",
+                        "turn_id": "15",
+                        "utterance": "I don't know."
+                  }
+            ]
+      },
+      {
+            "dialogue_id": "SNG1262.json",
+            "services": [
+                  "restaurant"
+            ],
+            "turns": [
+                  {
+                        "speaker": "USER",
+                        "turn_id": "0",
+                        "utterance": "I am looking for information about city stop restaurant?",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 55,
+                                                "slot": "restaurant-name",
+                                                "start": 35,
+                                                "value": "city stop restaurant"
+                                          }
+                                    ],
+                                    "state": {
+                                          "active_intent": "find_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-name": [
+                                                      "city stop restaurant"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "1",
+                        "utterance": "I have pulled up City Stop Restaurant. What information do you need?"
+                  },
+                  {
+                        "speaker": "USER",
+                        "turn_id": "2",
+                        "utterance": "Is this a kid-friendly restaurant?",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 55,
+                                                "slot": "restaurant-name",
+                                                "start": 35,
+                                                "value": "city stop restaurant"
+                                          }
+                                    ],
+                                    "state": {
+                                          "active_intent": "find_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-name": [
+                                                      "city stop restaurant"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "3",
+                        "utterance": "I don't know."
+                  }
+            ]
+      },
+      {
+            "dialogue_id": "SSNG0022.json",
+            "services": [
+                  "restaurant"
+            ],
+            "turns": [
+                  {
+                        "speaker": "USER",
+                        "turn_id": "0",
+                        "utterance": "I'm looking for mid range spanish restaurants, can you help me?",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 33,
+                                                "slot": "restaurant-food",
+                                                "start": 26,
+                                                "value": "spanish"
+                                          }
+                                    ],
+                                    "state": {
+                                          "active_intent": "find_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-food": [
+                                                      "spanish"
+                                                ],
+                                                "restaurant-pricerange": [
+                                                      "moderate"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "1",
+                        "utterance": "I have a listing for la tasca in the centre area,can I book you a table there?"
+                  },
+                  {
+                        "speaker": "USER",
+                        "turn_id": "2",
+                        "utterance": "Sure. That sounds like a nice place. Go ahead and book that for me.",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [],
+                                    "state": {
+                                          "active_intent": "find_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-food": [
+                                                      "spanish"
+                                                ],
+                                                "restaurant-pricerange": [
+                                                      "moderate"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "3",
+                        "utterance": "What day and time are you looking for? How many people will be in your party?"
+                  },
+                  {
+                        "speaker": "USER",
+                        "turn_id": "4",
+                        "utterance": "I need a table for 6 people Sunday night at 17:00.",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 49,
+                                                "slot": "restaurant-booktime",
+                                                "start": 44,
+                                                "value": "17:00"
+                                          }
+                                    ],
+                                    "state": {
+                                          "active_intent": "book_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-bookday": [
+                                                      "sunday"
+                                                ],
+                                                "restaurant-bookpeople": [
+                                                      "6"
+                                                ],
+                                                "restaurant-booktime": [
+                                                      "17:00"
+                                                ],
+                                                "restaurant-food": [
+                                                      "spanish"
+                                                ],
+                                                "restaurant-pricerange": [
+                                                      "moderate"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "5",
+                        "utterance": "I was unable to find a table at that time. Would you like to find another restaurant?"
+                  },
+                  {
+                        "speaker": "USER",
+                        "turn_id": "6",
+                        "utterance": "Is there a drop in quality during peak times?",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 49,
+                                                "slot": "restaurant-booktime",
+                                                "start": 44,
+                                                "value": "17:00"
+                                          }
+                                    ],
+                                    "state": {
+                                          "active_intent": "book_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-bookday": [
+                                                      "sunday"
+                                                ],
+                                                "restaurant-bookpeople": [
+                                                      "6"
+                                                ],
+                                                "restaurant-booktime": [
+                                                      "17:00"
+                                                ],
+                                                "restaurant-food": [
+                                                      "spanish"
+                                                ],
+                                                "restaurant-pricerange": [
+                                                      "moderate"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "7",
+                        "utterance": "I don't know."
+                  }
+            ]
+      },
+      {
+            "dialogue_id": "SSNG0168.json",
+            "services": [
+                  "restaurant"
+            ],
+            "turns": [
+                  {
+                        "speaker": "USER",
+                        "turn_id": "0",
+                        "utterance": "Yes I am looking for an expensive place to eat that is located in the city center.",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [],
+                                    "state": {
+                                          "active_intent": "find_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-area": [
+                                                      "centre"
+                                                ],
+                                                "restaurant-pricerange": [
+                                                      "expensive"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "1",
+                        "utterance": "There are quite a few restaurants in the center. What kind of cuisine are you interested in?"
+                  },
+                  {
+                        "speaker": "USER",
+                        "turn_id": "2",
+                        "utterance": "Hmm. I feel like discovering something new. Which restaurant would you recommend?",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [],
+                                    "state": {
+                                          "active_intent": "find_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-area": [
+                                                      "centre"
+                                                ],
+                                                "restaurant-pricerange": [
+                                                      "expensive"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "3",
+                        "utterance": "I would recommend Papadoux they are very expensive and right in the center of town"
+                  },
+                  {
+                        "speaker": "USER",
+                        "turn_id": "4",
+                        "utterance": "That sounds great. Could you book a table for one at 11:15 on Friday?",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 58,
+                                                "slot": "restaurant-booktime",
+                                                "start": 53,
+                                                "value": "11:15"
+                                          }
+                                    ],
+                                    "state": {
+                                          "active_intent": "find_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-area": [
+                                                      "centre"
+                                                ],
+                                                "restaurant-pricerange": [
+                                                      "expensive"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "5",
+                        "utterance": "I'm sorry, Papadoux is not coming up. There is an expensive African restaurant called Bedouin in city centre. Would you like me to try that one instead?"
+                  },
+                  {
+                        "speaker": "USER",
+                        "turn_id": "6",
+                        "utterance": "Yes, or any in the same expensive range and the centre area.",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [],
+                                    "state": {
+                                          "active_intent": "book_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-area": [
+                                                      "centre"
+                                                ],
+                                                "restaurant-bookday": [
+                                                      "friday"
+                                                ],
+                                                "restaurant-bookpeople": [
+                                                      "1"
+                                                ],
+                                                "restaurant-booktime": [
+                                                      "11:15"
+                                                ],
+                                                "restaurant-pricerange": [
+                                                      "expensive"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "7",
+                        "utterance": "I apologize the Bedouin does not have any open seats for that day and time. Would you like me to try another restaurant?"
+                  },
+                  {
+                        "speaker": "USER",
+                        "turn_id": "8",
+                        "utterance": "Is the restaurant listed on Yelp?",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [],
+                                    "state": {
+                                          "active_intent": "book_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-area": [
+                                                      "centre"
+                                                ],
+                                                "restaurant-bookday": [
+                                                      "friday"
+                                                ],
+                                                "restaurant-bookpeople": [
+                                                      "1"
+                                                ],
+                                                "restaurant-booktime": [
+                                                      "11:15"
+                                                ],
+                                                "restaurant-pricerange": [
+                                                      "expensive"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "9",
+                        "utterance": "I don't know."
+                  }
+            ]
+      },
+      {
+            "dialogue_id": "SNG0503.json",
+            "services": [
+                  "restaurant"
+            ],
+            "turns": [
+                  {
+                        "speaker": "USER",
+                        "turn_id": "0",
+                        "utterance": "Is there a restaurant near a park that you can recommend?",
+                        "frames": []
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "1",
+                        "utterance": "I don't know."
+                  }
+            ]
+      },
+      {
+            "dialogue_id": "SNG0503.json",
+            "services": [
+                  "restaurant"
+            ],
+            "turns": [
+                  {
+                        "speaker": "USER",
+                        "turn_id": "0",
+                        "utterance": "I am looking for a place to eat at that is expensive and serves food with afternoon tea.",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 87,
+                                                "slot": "restaurant-food",
+                                                "start": 74,
+                                                "value": "afternoon tea"
+                                          }
+                                    ],
+                                    "state": {
+                                          "active_intent": "find_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-food": [
+                                                      "afternoon tea"
+                                                ],
+                                                "restaurant-pricerange": [
+                                                      "expensive"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "1",
+                        "utterance": "Unfortunately, I don't have any places that serve tea that are expensive. Did you want me to try a different price range or type of cuisine served?"
+                  },
+                  {
+                        "speaker": "USER",
+                        "turn_id": "2",
+                        "utterance": "No thanks. Instead, could you tell me where to get Thai food?",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 55,
+                                                "slot": "restaurant-food",
+                                                "start": 51,
+                                                "value": "Thai"
+                                          }
+                                    ],
+                                    "state": {
+                                          "active_intent": "find_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-food": [
+                                                      "thai"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "3",
+                        "utterance": "I found two Thai restaurants one is in the west and one in centre. Which would you prefer?"
+                  },
+                  {
+                        "speaker": "USER",
+                        "turn_id": "4",
+                        "utterance": "Is the quality of the service affected during peak hours?",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 55,
+                                                "slot": "restaurant-food",
+                                                "start": 51,
+                                                "value": "Thai"
+                                          }
+                                    ],
+                                    "state": {
+                                          "active_intent": "find_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-food": [
+                                                      "thai"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "5",
+                        "utterance": "I don't know."
+                  }
+            ]
+      },
+      {
+            "dialogue_id": "SNG0461.json",
+            "services": [
+                  "restaurant"
+            ],
+            "turns": [
+                  {
+                        "speaker": "USER",
+                        "turn_id": "0",
+                        "utterance": "I need a moderately priced restaurant that serves hungarian food.",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 59,
+                                                "slot": "restaurant-food",
+                                                "start": 50,
+                                                "value": "hungarian"
+                                          }
+                                    ],
+                                    "state": {
+                                          "active_intent": "find_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-food": [
+                                                      "hungarian"
+                                                ],
+                                                "restaurant-pricerange": [
+                                                      "moderate"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "1",
+                        "utterance": "I am sorry, there are no restaurants that meet your requests. Would you like to change your price range or food type?"
+                  },
+                  {
+                        "speaker": "USER",
+                        "turn_id": "2",
+                        "utterance": "Brunch or dinner: which is less expensive?",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 59,
+                                                "slot": "restaurant-food",
+                                                "start": 50,
+                                                "value": "hungarian"
+                                          }
+                                    ],
+                                    "state": {
+                                          "active_intent": "find_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-food": [
+                                                      "hungarian"
+                                                ],
+                                                "restaurant-pricerange": [
+                                                      "moderate"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "3",
+                        "utterance": "I don't know."
+                  }
+            ]
+      },
+      {
+            "dialogue_id": "SNG02013.json",
+            "services": [
+                  "restaurant"
+            ],
+            "turns": [
+                  {
+                        "speaker": "USER",
+                        "turn_id": "0",
+                        "utterance": "I'm looking for a place to dine.",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [],
+                                    "state": {
+                                          "active_intent": "find_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {}
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "1",
+                        "utterance": "Certainly. What type of food interests you?"
+                  },
+                  {
+                        "speaker": "USER",
+                        "turn_id": "2",
+                        "utterance": "I like ethnic food, particularly Indian food.",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 39,
+                                                "slot": "restaurant-food",
+                                                "start": 33,
+                                                "value": "Indian"
+                                          }
+                                    ],
+                                    "state": {
+                                          "active_intent": "find_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-food": [
+                                                      "indian"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "3",
+                        "utterance": "Great, I have a bunch of options for you. Do you have a certain area and price range you are looking for?"
+                  },
+                  {
+                        "speaker": "USER",
+                        "turn_id": "4",
+                        "utterance": "Is there a vegan option?",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 39,
+                                                "slot": "restaurant-food",
+                                                "start": 33,
+                                                "value": "Indian"
+                                          }
+                                    ],
+                                    "state": {
+                                          "active_intent": "find_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-food": [
+                                                      "indian"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "5",
+                        "utterance": "I don't know."
+                  }
+            ]
+      },
+      {
+            "dialogue_id": "PMUL0681.json",
+            "services": [
+                  "restaurant"
+            ],
+            "turns": [
+                  {
+                        "speaker": "USER",
+                        "turn_id": "0",
+                        "utterance": "I would like to dine at a restaurant in the south that serves barbeque. Can you help?",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 70,
+                                                "slot": "restaurant-food",
+                                                "start": 62,
+                                                "value": "barbeque"
+                                          }
+                                    ],
+                                    "state": {
+                                          "active_intent": "find_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-area": [
+                                                      "south"
+                                                ],
+                                                "restaurant-food": [
+                                                      "barbeque"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "1",
+                        "utterance": "Nothing matches that search, can I try a different area or restaurant type?"
+                  },
+                  {
+                        "speaker": "USER",
+                        "turn_id": "2",
+                        "utterance": "Is it sunny during the day?",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 70,
+                                                "slot": "restaurant-food",
+                                                "start": 62,
+                                                "value": "barbeque"
+                                          }
+                                    ],
+                                    "state": {
+                                          "active_intent": "find_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-area": [
+                                                      "south"
+                                                ],
+                                                "restaurant-food": [
+                                                      "barbeque"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "3",
+                        "utterance": "I don't know."
+                  }
+            ]
+      },
+      {
+            "dialogue_id": "SNG0476.json",
+            "services": [
+                  "restaurant"
+            ],
+            "turns": [
+                  {
+                        "speaker": "USER",
+                        "turn_id": "0",
+                        "utterance": "I'm looking for a restaurant called Mahal of Cambridge.",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 54,
+                                                "slot": "restaurant-name",
+                                                "start": 36,
+                                                "value": "Mahal of Cambridge"
+                                          }
+                                    ],
+                                    "state": {
+                                          "active_intent": "find_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-name": [
+                                                      "mahal of cambridge"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "1",
+                        "utterance": "Sure, that's a great cheap Indian restaurant in the centre of town. What information do you need?"
+                  },
+                  {
+                        "speaker": "USER",
+                        "turn_id": "2",
+                        "utterance": "Are gluten-free dishes available?",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 54,
+                                                "slot": "restaurant-name",
+                                                "start": 36,
+                                                "value": "Mahal of Cambridge"
+                                          }
+                                    ],
+                                    "state": {
+                                          "active_intent": "find_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-name": [
+                                                      "mahal of cambridge"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "3",
+                        "utterance": "I don't know."
+                  }
+            ]
+      },
+      {
+            "dialogue_id": "SNG0619.json",
+            "services": [
+                  "restaurant"
+            ],
+            "turns": [
+                  {
+                        "speaker": "USER",
+                        "turn_id": "0",
+                        "utterance": "I am looking for a British restaurant that is moderately priced.",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 26,
+                                                "slot": "restaurant-food",
+                                                "start": 19,
+                                                "value": "British"
+                                          }
+                                    ],
+                                    "state": {
+                                          "active_intent": "find_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-food": [
+                                                      "british"
+                                                ],
+                                                "restaurant-pricerange": [
+                                                      "moderate"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "1",
+                        "utterance": "There are a few of them. Would you prefer the centre of town or the west area?"
+                  },
+                  {
+                        "speaker": "USER",
+                        "turn_id": "2",
+                        "utterance": "Are the weekends more expensive than weekdays?",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 26,
+                                                "slot": "restaurant-food",
+                                                "start": 19,
+                                                "value": "British"
+                                          }
+                                    ],
+                                    "state": {
+                                          "active_intent": "find_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-food": [
+                                                      "british"
+                                                ],
+                                                "restaurant-pricerange": [
+                                                      "moderate"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "3",
+                        "utterance": "I don't know."
+                  }
+            ]
+      },
+      {
+            "dialogue_id": "SSNG0106.json",
+            "services": [
+                  "restaurant"
+            ],
+            "turns": [
+                  {
+                        "speaker": "USER",
+                        "turn_id": "0",
+                        "utterance": "Is it possible to have a vegan dish?",
+                        "frames": []
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "1",
+                        "utterance": "I don't know."
+                  }
+            ]
+      },
+      {
+            "dialogue_id": "SSNG0106.json",
+            "services": [
+                  "restaurant"
+            ],
+            "turns": [
+                  {
+                        "speaker": "USER",
+                        "turn_id": "0",
+                        "utterance": "I would like an expensive place to dine, centre of town.",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [],
+                                    "state": {
+                                          "active_intent": "find_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-area": [
+                                                      "centre"
+                                                ],
+                                                "restaurant-pricerange": [
+                                                      "expensive"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "1",
+                        "utterance": "Great! There are 33 such restaurants. What type of food would you like to eat?"
+                  },
+                  {
+                        "speaker": "USER",
+                        "turn_id": "2",
+                        "utterance": "The type of food doesn't matter, but I need a reservation for 8 people.",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [],
+                                    "state": {
+                                          "active_intent": "book_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-area": [
+                                                      "centre"
+                                                ],
+                                                "restaurant-bookpeople": [
+                                                      "8"
+                                                ],
+                                                "restaurant-food": [
+                                                      "dontcare"
+                                                ],
+                                                "restaurant-pricerange": [
+                                                      "expensive"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [],
+                        "speaker": "SYSTEM",
+                        "turn_id": "3",
+                        "utterance": "What day and time are you looking to book your reservation?"
+                  },
+                  {
+                        "speaker": "USER",
+                        "turn_id": "4",
+                        "utterance": "12:45 on wednesday for 8 people please and may I get the reservation number after you book it please?",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 5,
+                                                "slot": "restaurant-booktime",
+                                                "start": 0,
+                                                "value": "12:45"
+                                          }
+                                    ],
+                                    "state": {
+                                          "active_intent": "book_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-area": [
+                                                      "centre"
+                                                ],
+                                                "restaurant-bookday": [
+                                                      "wednesday"
+                                                ],
+                                                "restaurant-bookpeople": [
+                                                      "8"
+                                                ],
+                                                "restaurant-booktime": [
+                                                      "12:45"
+                                                ],
+                                                "restaurant-food": [
+                                                      "dontcare"
+                                                ],
+                                                "restaurant-pricerange": [
+                                                      "expensive"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 45,
+                                                "slot": "restaurant-name",
+                                                "start": 39,
+                                                "value": "kymmoy"
+                                          }
+                                    ]
+                              }
+                        ],
+                        "speaker": "SYSTEM",
+                        "turn_id": "5",
+                        "utterance": "I made a reservation at the restaurant kymmoy. The confirmation number is UR49SKNA"
+                  },
+                  {
+                        "speaker": "USER",
+                        "turn_id": "6",
+                        "utterance": "Is there a drop in quality during peak times?",
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 5,
+                                                "slot": "restaurant-booktime",
+                                                "start": 0,
+                                                "value": "12:45"
+                                          }
+                                    ],
+                                    "state": {
+                                          "active_intent": "book_restaurant",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                "restaurant-area": [
+                                                      "centre"
+                                                ],
+                                                "restaurant-bookday": [
+                                                      "wednesday"
+                                                ],
+                                                "restaurant-bookpeople": [
+                                                      "8"
+                                                ],
+                                                "restaurant-booktime": [
+                                                      "12:45"
+                                                ],
+                                                "restaurant-food": [
+                                                      "dontcare"
+                                                ],
+                                                "restaurant-pricerange": [
+                                                      "expensive"
+                                                ]
+                                          }
+                                    }
+                              }
+                        ]
+                  },
+                  {
+                        "frames": [
+                              {
+                                    "actions": [],
+                                    "service": "restaurant",
+                                    "slots": [
+                                          {
+                                                "exclusive_end": 45,
+                                                "slot": "restaurant-name",
+                                                "start": 39,
+                                                "value": "kymmoy"
+                                          }
+                                    ]
+                              }
+                        ],
+                        "speaker": "SYSTEM",
+                        "turn_id": "7",
+                        "utterance": "I don't know."
+                  }
+            ]
+      }
+]

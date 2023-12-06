@@ -1,0 +1,40 @@
+Is there free parking?
+Is there any parking available for free?
+Is parking available for free?
+Is there any parking that is free?
+Is this a safe area?	
+Is this a secure location?	
+Is this an area where I can feel secure?	
+Is this a secure place to be?
+Is there any metro station in the area?	
+Is there a metro station in the immediate vicinity?	
+Is the area served by a metro station?	
+Is there a metro station close by?
+How is the traffic in the area?	
+What is the current state of the traffic in the area?	
+What is the current state of the traffic in this area?	
+How is the traffic in the area?
+How sunny is it during the day?
+What time of day is it the most sunny? 
+During the day, how sunny is it? 
+Is it sunny during the day? 
+Is there any ice cream parlor in the neighborhood?	
+Is there an ice cream shop in the vicinity?	
+Is there a nearby ice cream shop?	
+Is there an ice cream shop in the area?
+What other attractions are there in the neighborhood?	
+What kind of attractions can you find in the area?	
+What are local attractions like?	
+What are the local attractions?
+Is there any bar available in the area?	
+Is there a bar in the neighborhood?	
+Is there a bar in the vicinity that I could go to?	
+Is there a bar in the area?
+How are tourists treated here?
+How are visitors handled in this area?
+What is the treatment like for visitors in this city? 
+How are visitors handled in this city?  
+How far is it from the city center?	
+What is the distance from the city center?	
+Is this area around the city center?	
+Is this a neighborhood near the city center?

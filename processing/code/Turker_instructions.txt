@@ -1,0 +1,210 @@
+Some conversations between a user and a system is given below. The goal of the system is to book a table at a restaurant for the user.  For this purpose, the system needs to collect a set of required information from the user about their preference of restaurant booking. The required list of information is: {"restaurant-pricerange": "price budget for the restaurant", "restaurant-area": "area or place of the restaurant", "restaurant-food": "the cuisine of the restaurant the user is looking for", "restaurant-name": "name of the restaurant", "restaurant-bookday": "day of the restaurant booking", "restaurant-bookpeople": "how many people for the restaurant reservation", "restaurant-booktime": "time of the restaurant booking"}.
+
+The user may ask questions at any stage during the collection of information by the system (e.g. after the system has collected 0, 1, 2 or more pieces of information). Every time the system is unable to respond to a user's question, the user may decide to drop out. Each conversation given below, ends up with a user question that the system was unable to answer and hence, the user dropped out of the conversation. The system may have collected some pieces of information from the user so far, however this was not enough for booking a restaurant.
+
+TASK: If the system is able to answer the last question, how likely is it that this conversation will be completed successfully, given the information already collected by the system? Score each conversation as either of the following: 1=unlikely 2= somewhat likely,  3= likely, 4 = very likely.
+
+Note that a conversation completes successfully if the user provides all required information to the system (in this case, the above mentioned list) and the system is able to answer the most important questions the user has (e.g. "At what time does the show start?").  
+
+Some examples are given below:
+
+#### Start of example
+Dialogue:
+{
+    "dialogue_id": "X1.json",
+    "services": [
+            "restaurant"
+    ],
+    "turns": [
+            {
+                "speaker": "USER",
+                "turn_id": "0",
+                "utterance": "Is there a restaurant that offers live music?",
+                "frames": []
+            },
+            {
+                "frames": [],
+                "speaker": "SYSTEM",
+                "turn_id": "1",
+                "utterance": "I don't know."
+            }
+    ],
+    "did": 4
+}
+Score: 1
+#### End of example
+
+#### Start of example
+Dialogue:
+{
+    "dialogue_id": "X2.json",
+    "services": [
+            "restaurant"
+    ],
+    "turns": [
+            {
+                "speaker": "USER",
+                "turn_id": "0",
+                "utterance": "I'm looking for an expensive place to dine in the centre.",
+                "frames": [
+                        {
+                            "actions": [],
+                            "service": "restaurant",
+                            "slots": [],
+                            "state": {
+                                    "active_intent": "find_restaurant",
+                                    "requested_slots": [],
+                                    "slot_values": {
+                                        "restaurant-area": [
+                                                "centre"
+                                        ],
+                                        "restaurant-pricerange": [
+                                                "expensive"
+                                        ]
+                                    }
+                            }
+                        }
+                ]
+            },
+            {
+                "frames": [],
+                "speaker": "SYSTEM",
+                "turn_id": "1",
+                "utterance": "I have 33 restaurants that meet that criteria. Are you looking for a certain type of food?"
+            },
+            {
+                "speaker": "USER",
+                "turn_id": "2",
+                "utterance": "I would like north american food.",
+                "frames": [
+                        {
+                            "actions": [],
+                            "service": "restaurant",
+                            "slots": [
+                                    {
+                                        "exclusive_end": 27,
+                                        "slot": "restaurant-food",
+                                        "start": 13,
+                                        "value": "north american"
+                                    }
+                            ],
+                            "state": {
+                                    "active_intent": "find_restaurant",
+                                    "requested_slots": [],
+                                    "slot_values": {
+                                        "restaurant-area": [
+                                                "centre"
+                                        ],
+                                        "restaurant-food": [
+                                                "north american"
+                                        ],
+                                        "restaurant-pricerange": [
+                                                "expensive"
+                                        ]
+                                    }
+                            }
+                        }
+                ]
+            },
+            {
+                "frames": [],
+                "speaker": "SYSTEM",
+                "turn_id": "3",
+                "utterance": "gourmet burger kitchen is an expensive restaurant that serves North American Food. Would that be acceptable?"
+            },
+            {
+                "speaker": "USER",
+                "turn_id": "4",
+                "utterance": "Is it possible to book for 7 people on wednesday at 19:15?",
+                "frames": [
+                        {
+                            "actions": [],
+                            "service": "restaurant",
+                            "slots": [
+                                    {
+                                        "exclusive_end": 51,
+                                        "slot": "restaurant-booktime",
+                                        "start": 46,
+                                        "value": "19:15"
+                                    }
+                            ],
+                            "state": {
+                                    "active_intent": "book_restaurant",
+                                    "requested_slots": [],
+                                    "slot_values": {
+                                        "restaurant-area": [
+                                                "centre"
+                                        ],
+                                        "restaurant-bookday": [
+                                                "wednesday"
+                                        ],
+                                        "restaurant-bookpeople": [
+                                                "7"
+                                        ],
+                                        "restaurant-booktime": [
+                                                "19:15"
+                                        ],
+                                        "restaurant-food": [
+                                                "north american"
+                                        ],
+                                        "restaurant-pricerange": [
+                                                "expensive"
+                                        ]
+                                    }
+                            }
+                        }
+                ]
+            },
+            {
+                "frames": [],
+                "speaker": "SYSTEM",
+                "turn_id": "5",
+                "utterance": "Certainly. Would you like me to book a table at the restaurant?"
+            },
+            {
+                "speaker": "USER",
+                "turn_id": "8",
+                "utterance": "Is the food's taste appropriate with the price?",
+                "frames": [
+                        {
+                            "actions": [],
+                            "service": "restaurant",
+                            "slots": [],
+                            "state": {
+                                    "active_intent": "book_restaurant",
+                                    "requested_slots": [],
+                                    "slot_values": {
+                                        "restaurant-area": [
+                                                "centre"
+                                        ],
+                                        "restaurant-bookday": [
+                                                "wednesday"
+                                        ],
+                                        "restaurant-bookpeople": [
+                                                "7"
+                                        ],
+                                        "restaurant-booktime": [
+                                                "19:15"
+                                        ],
+                                        "restaurant-food": [
+                                                "north american"
+                                        ],
+                                        "restaurant-pricerange": [
+                                                "expensive"
+                                        ]
+                                    }
+                            }
+                        }
+                ]
+            },
+            {
+                "frames": [],
+                "speaker": "SYSTEM",
+                "turn_id": "9",
+                "utterance": "I don't know."
+            }
+    ],
+    "did": 121
+}
+Score: 4
+##### End of example
