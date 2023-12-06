@@ -1,0 +1,776 @@
+{
+  "At what time does it start?": [
+    [
+      "q3",
+      "bf26c9bc-6e35-3af1-9333-d342ff6c0fe3"
+    ],
+    [
+      "q2",
+      "9a8ddf39-662c-3846-8914-1bd3133d048b"
+    ]
+  ],
+  "How long has the festival been running?": [
+    [
+      "q3",
+      "c918ed76-3fa7-3205-b3da-3fb96bf3ceeb"
+    ]
+  ],
+  "What items are not allowed to be brought in?": [
+    [
+      "q4",
+      "01bea59d-ee74-3b0d-bfc8-5f57138bb26a"
+    ]
+  ],
+  "Are there any bars near the venue?": [
+    [
+      "q4",
+      "a3aefdd0-0b43-33ba-bbb5-77695fefc662"
+    ]
+  ],
+  "Which acts have been opening for him?": [
+    [
+      "q2",
+      "523e7bdd-6d57-3313-80e4-933a82110e90"
+    ]
+  ],
+  "How much will the tickets cost?": [
+    [
+      "q2",
+      "9282f8e7-272a-3b3a-b00e-85818d751f68"
+    ]
+  ],
+  "At what time will the event start?": [
+    [
+      "q1",
+      "38676984-cffa-370e-8d3a-ae4cec38f518"
+    ]
+  ],
+  "Can I bring my bags?": [
+    [
+      "q1",
+      "f125698e-2b81-3c60-bd9e-4b1ccc681821"
+    ]
+  ],
+  "Do you know where did he last played?": [
+    [
+      "q3",
+      "9fc2d388-d2e2-348c-b2c1-ed8bb06b5270"
+    ]
+  ],
+  "Can you recommend anything else we might enjoy in the area?": [
+    [
+      "q4",
+      "5efa8cb5-c4f1-3ae4-9157-100d6b2a10d6"
+    ]
+  ],
+  "Can you tell me what time the event will finish?": [
+    [
+      "q4",
+      "592d341b-d813-349c-b1e6-e50f3aa67b61"
+    ]
+  ],
+  "Could you tell me how both teams are doing this season?": [
+    [
+      "q4",
+      "5c049ff8-5b5c-333d-971a-1daa551e9bb7"
+    ]
+  ],
+  "Could you search for other events in the area?": [
+    [
+      "q4",
+      "2c343e12-b400-32ac-b5d2-42b238aa4ec2"
+    ]
+  ],
+  "Do I need to come half an hour early before the event starts?": [
+    [
+      "q1",
+      "a0d5594e-e7a5-3f34-b4c3-c0cde335993a"
+    ]
+  ],
+  "Is there any discount on tickets for students?": [
+    [
+      "q1",
+      "323318aa-5271-3b30-ac8e-a0a2b4f71d16"
+    ]
+  ],
+  "Are there a lot of tickets still available?": [
+    [
+      "q3",
+      "a85e6edb-43d0-31ed-8c8d-72a9e2dcc839"
+    ]
+  ],
+  "Is there a cafe inside the venue?": [
+    [
+      "q2",
+      "0af60c58-fdaa-3b9c-a11f-878d873913e1"
+    ]
+  ],
+  "Can you please provide the available list of timings?": [
+    [
+      "q3",
+      "42e1370d-78af-3c86-97cd-251ad92f7b8a"
+    ]
+  ],
+  "How much is the ticket price?": [
+    [
+      "q4",
+      "97b9722f-a67d-359b-b04f-7b13c0bb6995"
+    ]
+  ],
+  "Are there senior citizen discounts for tickets?": [
+    [
+      "q3",
+      "9959e92e-dd2a-35f3-a91c-18affc90ea4c"
+    ]
+  ],
+  "Is parking available at the venue?": [
+    [
+      "q4",
+      "1ffef858-145e-3a59-b192-005a0277a56f"
+    ]
+  ],
+  "How much do the tickets cost?": [
+    [
+      "q1",
+      "25829f71-fc52-364a-8198-40fb0db097ae"
+    ],
+    [
+      "q4",
+      "47be7ad0-eeeb-35e8-9684-2797fc184016"
+    ]
+  ],
+  "Is there another game that night?": [
+    [
+      "q1",
+      "86353cec-0e86-3150-b8de-da7458b505ba"
+    ]
+  ],
+  "Is there merchandise at this event?": [
+    [
+      "q4",
+      "cf63c051-7eda-35ab-819b-f9a61e321386"
+    ]
+  ],
+  "What program did you book the tickets through?": [
+    [
+      "q3",
+      "49b2580c-003f-3eee-9233-dd54417d91fb"
+    ]
+  ],
+  "What are similar events to this one happening in April?": [
+    [
+      "q4",
+      "c17169d3-0917-3c5b-a01c-4bcf603ab100"
+    ]
+  ],
+  "What genre of event is it?": [
+    [
+      "q4",
+      "ebf6f878-0636-341d-8121-3956f9f4f366"
+    ]
+  ],
+  "What other events are happening on the same day?": [
+    [
+      "q3",
+      "7b010054-3038-3c0d-b27b-369576e55d19"
+    ]
+  ],
+  "How much does parking cost at the venue?": [
+    [
+      "q3",
+      "0d7c2d6f-a7e2-35c1-854d-d18a36b57db9"
+    ]
+  ],
+  "What is the venue called for the game?": [
+    [
+      "q4",
+      "1f4c8c9f-8f90-3436-9c11-d382572586a5"
+    ]
+  ],
+  "What other concerts are in that area?": [
+    [
+      "q1",
+      "8c4dad2b-f78e-3c55-9cc4-ff21399cd42e"
+    ]
+  ],
+  "Where do they play next week?": [
+    [
+      "q2",
+      "f7e8b4c4-4b5e-373f-808e-04167963e96d"
+    ]
+  ],
+  "How long until the two teams play again?": [
+    [
+      "q4",
+      "a036d6d5-991c-360f-ac29-d6a19f19cba2"
+    ]
+  ],
+  "What time does the show start?": [
+    [
+      "q4",
+      "9e2dd47b-5894-3dbb-b8d4-fcd017ade25f"
+    ]
+  ],
+  "Has she ever won a grammy award?": [
+    [
+      "q4",
+      "ea7e4417-d057-3fc5-a815-91e4fad8a812"
+    ]
+  ],
+  "What time does that show start?": [
+    [
+      "q4",
+      "5d4b8f91-de3d-3744-bc0c-5cebfc538d90"
+    ]
+  ],
+  "What type of music will be played at the event?": [
+    [
+      "q3",
+      "f2e52490-1471-3088-b1fb-35642a7080ac"
+    ]
+  ],
+  "What's the batting average of their best players?": [
+    [
+      "q4",
+      "d208aabe-7a70-3d5c-b4d3-44c6e056dd7d"
+    ]
+  ],
+  "What's the price on them?": [
+    [
+      "q2",
+      "fef9f6e9-3e94-3ee7-9a9f-347bf2a34db8"
+    ]
+  ],
+  "What are the records between them?": [
+    [
+      "q4",
+      "839af9c8-da0f-373a-855f-6259597842f1"
+    ]
+  ],
+  "Can you reserve a ticket for the next time the teams are playing?": [
+    [
+      "q4",
+      "8c01e03e-a024-3736-93e3-666845f5a325"
+    ]
+  ],
+  "When are they playing next?": [
+    [
+      "q4",
+      "766fdda5-46aa-3ee2-a2e9-59bafea2ef06"
+    ]
+  ],
+  "When did the event sell out?": [
+    [
+      "q4",
+      "6f2f4a45-7754-37f2-a795-b33b8c475da0"
+    ]
+  ],
+  "At what time does the game start?": [
+    [
+      "q4",
+      "086a6b3e-5771-3ffe-9d2c-70f544baf3b3"
+    ]
+  ],
+  "Where are they playing?": [
+    [
+      "q4",
+      "064df785-674c-36c9-bef4-21fe506d2839"
+    ]
+  ],
+  "What genre of music is it?": [
+    [
+      "q4",
+      "eb54975d-7adb-37eb-9caa-64816cb4c1a2"
+    ],
+    [
+      "q1",
+      "7be48cf9-6406-3704-9bb1-bf885fa3d719"
+    ]
+  ],
+  "Where will the event be at?": [
+    [
+      "q4",
+      "225d9c7e-031d-3b39-b33e-029ba922b439"
+    ]
+  ],
+  "What are some ideal locations for sightseeing in the city?": [
+    [
+      "q1",
+      "c04cf541-096e-3250-8f62-b2b67b84d06d"
+    ]
+  ],
+  "Is there a bundle discount on tickets?": [
+    [
+      "q1",
+      "49f10066-8177-36de-a701-24f9e3bf45d5"
+    ]
+  ],
+  "Will the event be in a stadium?": [
+    [
+      "q1",
+      "0bdc4fa8-30e4-3c14-8cf6-410a1de0a090"
+    ]
+  ],
+  "Would the event be at a stadium or a field?": [
+    [
+      "q2",
+      "4f2517d7-ccb1-3c82-a477-5472fcb94021"
+    ]
+  ],
+  "How much do the tickets cost for the game?": [
+    [
+      "q2",
+      "2c236278-bcb1-3f61-ba94-5939d25dee7c"
+    ]
+  ],
+  "What kind of music do they play?": [
+    [
+      "q1",
+      "fb6b361e-87c5-389e-8136-78bf74626ef7"
+    ],
+    [
+      "q2",
+      "153b7a98-f9d5-381b-bea3-e21a292efedf"
+    ]
+  ],
+  "Are there any sporting events happening?": [
+    [
+      "q2",
+      "1f1d7f15-2c00-384a-99b6-236f72b4f92a"
+    ]
+  ],
+  "Could you tell me more about the game?": [
+    [
+      "q2",
+      "8578d582-051f-385b-8819-e8f905440cf2"
+    ]
+  ],
+  "What is the address of the venue?": [
+    [
+      "q2",
+      "7da0c4f4-9479-3d67-a63b-209967c7c3e6"
+    ]
+  ],
+  "Will there be a refund if the event gets cancelled?": [
+    [
+      "q4",
+      "76336d5e-3d38-3f36-842c-bcb1838a66b9"
+    ]
+  ],
+  "What time is the event?": [
+    [
+      "q2",
+      "3f86fa57-bc48-32ae-a920-4a935cf5cb7f"
+    ]
+  ],
+  "What events are happening there?": [
+    [
+      "q1",
+      "8c6615ff-7b01-354a-92dd-c22945823f30"
+    ]
+  ],
+  "Can I bring beer to the festival?": [
+    [
+      "q2",
+      "578b31b7-a32d-3c73-89da-653ddbb7d2e9"
+    ]
+  ],
+  "What time does that game start?": [
+    [
+      "q2",
+      "110c0ecd-9fb7-3f06-a26e-2f75a9150792"
+    ]
+  ],
+  "How much does it cost for four tickets?": [
+    [
+      "q2",
+      "06c12357-95b8-386f-a634-d510d9bb684e"
+    ]
+  ],
+  "Is there going to be an open bar during the concert?": [
+    [
+      "q1",
+      "61e2a0f4-0a59-396f-b9d4-024c5318533a"
+    ]
+  ],
+  "How much do the tickets to that game cost?": [
+    [
+      "q3",
+      "d76f7732-1a0f-3ac8-abf1-bcb847ee6c4b"
+    ]
+  ],
+  "Is it home-field for one of the teams?": [
+    [
+      "q2",
+      "f1568fbb-d29f-3e2d-a9a7-0a8534aa4e5a"
+    ]
+  ],
+  "Is there free parking at the plaza?": [
+    [
+      "q3",
+      "f02ef5a7-915a-3844-b908-18e70a50f292"
+    ]
+  ],
+  "What time will the event kick off?": [
+    [
+      "q3",
+      "e1a8df11-62d0-311a-acea-1c59b05cf62e"
+    ]
+  ],
+  "How much are the tickets for children?": [
+    [
+      "q3",
+      "8967ff4f-34a8-3eaf-8c8a-228b2b671106"
+    ]
+  ],
+  "Does the event have free parking?": [
+    [
+      "q4",
+      "e1a47b81-a317-3b91-82ad-2ad489fb0ae5"
+    ]
+  ],
+  "Do I have to be 18 to go to the festival?": [
+    [
+      "q4",
+      "4ff9e36f-950b-3943-b63d-3d8550bb9343"
+    ]
+  ],
+  "Can I transfer the tickets to someone else if I can't make it?": [
+    [
+      "q2",
+      "4bd1ddc9-2550-3210-a1d5-536fc4f46055"
+    ]
+  ],
+  "What's the record between the two teams?": [
+    [
+      "q1",
+      "768a1f0e-6876-3a38-ac61-2557c78334f0"
+    ]
+  ],
+  "Where will they be playing at?": [
+    [
+      "q4",
+      "70397bb3-2155-358a-9be3-1edeb99fe8dd"
+    ]
+  ],
+  "Can I bring food in?": [
+    [
+      "q4",
+      "bce3c829-8cca-388e-ba51-105e4a0cd1ba"
+    ]
+  ],
+  "What are the last three cities where they played?": [
+    [
+      "q2",
+      "23c4a239-09fc-3c80-9ebe-309751e918d3"
+    ]
+  ],
+  "Where would the seat be located in the stadium?": [
+    [
+      "q2",
+      "196fea2b-0eba-3b98-8d30-f0edb8cca747"
+    ]
+  ],
+  "Can you select your seating at this venue?": [
+    [
+      "q4",
+      "83eadb0d-7a1c-32bf-93a7-6ed8a9d42c66"
+    ]
+  ],
+  "What is the price of tickets?": [
+    [
+      "q4",
+      "b4fd57dc-8117-39da-88fa-7183538568dd"
+    ]
+  ],
+  "Does the stadium have a dome on it?": [
+    [
+      "q2",
+      "23bfb18b-1041-3ea7-bf76-147319652981"
+    ]
+  ],
+  "How much are the tickets?": [
+    [
+      "q3",
+      "3198f6ae-bddd-34d8-b23c-49cad4980273"
+    ],
+    [
+      "q4",
+      "70be06f4-a9b3-30b2-846d-db875703edc3"
+    ]
+  ],
+  "Is there any type of deal if I purchase multiple tickets?": [
+    [
+      "q2",
+      "508d8c60-7347-3492-a93d-514e6c3fe91b"
+    ]
+  ],
+  "Where's the best place to park?": [
+    [
+      "q1",
+      "f5b54331-6d29-341f-b5ba-d78006b62c7a"
+    ]
+  ],
+  "Where else do they play in the next week?": [
+    [
+      "q4",
+      "442ff61d-70af-34a0-8239-d0b3f0e865a0"
+    ]
+  ],
+  "How much is the ticket?": [
+    [
+      "q1",
+      "2601515a-3afc-3881-9ae1-10ee23fa6325"
+    ],
+    [
+      "q4",
+      "efb06ca8-e434-3216-9d52-571402c8a125"
+    ]
+  ],
+  "Can I bring my kids to the field?": [
+    [
+      "q4",
+      "e669c0a0-cd1f-3a45-b987-93c69f0d9f4b"
+    ]
+  ],
+  "Are there discounts for seniors or for children?": [
+    [
+      "q1",
+      "fce9b251-02fb-3363-b41d-dcb4b442cb99"
+    ]
+  ],
+  "Are the tickets changeable?": [
+    [
+      "q4",
+      "0d4b271d-a033-3126-8f64-97203d530f0c"
+    ]
+  ],
+  "Is there parking space available?": [
+    [
+      "q4",
+      "d09da71f-adfe-3dae-a96f-025c59c0c0f7"
+    ]
+  ],
+  "Yes, can you tell me what time the gates open?": [
+    [
+      "q1",
+      "e0a530c5-ea09-3360-805a-2e6f6a845af4"
+    ]
+  ],
+  "Who is the lead singer of it?": [
+    [
+      "q2",
+      "ffd03f5f-c921-3c37-97b5-7b9bf270b36f"
+    ]
+  ],
+  "Can I modify my reservation later on?": [
+    [
+      "q4",
+      "41027e7a-9130-38a1-b665-3672888a3e63"
+    ]
+  ],
+  "Are minors allowed in?": [
+    [
+      "q4",
+      "203fd646-51e1-3ca8-aaeb-6b036e1e6c33"
+    ]
+  ],
+  "Do I get discount for buying tickets early?": [
+    [
+      "q1",
+      "53010291-581e-3d34-abf2-da9e49e274fe"
+    ]
+  ],
+  "Is there a discount on bulk tickets?": [
+    [
+      "q3",
+      "68d9b3b6-e370-36d9-a4b6-0ec087398a7e"
+    ]
+  ],
+  "Are the tickets refundable?": [
+    [
+      "q4",
+      "7d04f736-9bd9-3b00-b316-644b977b02e9"
+    ]
+  ],
+  "Can I bring food into the venue?": [
+    [
+      "q1",
+      "df568b7e-d081-3169-9b63-fb2c057be019"
+    ]
+  ],
+  "What time should we be there?": [
+    [
+      "q1",
+      "386a4638-3115-3a29-b381-5f010c222abb"
+    ]
+  ],
+  "Am I able to bring anything into the show with me?": [
+    [
+      "q2",
+      "28bae937-e0ae-3a2d-973d-6e097c7b0cb5"
+    ]
+  ],
+  "Where in Toronto is the game?": [
+    [
+      "q2",
+      "f1a7cf53-0e84-35c3-b8f9-35c011423b57"
+    ]
+  ],
+  "Is the event standing or seated?": [
+    [
+      "q4",
+      "00d9c844-fbb4-30d2-a8aa-a7e78eae2ffc"
+    ]
+  ],
+  "How much does 3 regular tickets cost compared to the VIP seat tickets?": [
+    [
+      "q1",
+      "7f36aba7-c77e-346d-8c54-b6c0b9fff8c1"
+    ]
+  ],
+  "What is the price of the tickets?": [
+    [
+      "q2",
+      "da5baa49-6699-3d59-9557-854e14430086"
+    ]
+  ],
+  "Do I have to print the tickets?": [
+    [
+      "q1",
+      "64232ee9-3d36-3fcb-827c-56e2c0a53a8b"
+    ]
+  ],
+  "Are there any hotels nearby?": [
+    [
+      "q3",
+      "9da4d561-485a-3e75-a1f6-a3ce48e2a5b0"
+    ]
+  ],
+  "Is there parking nearby?": [
+    [
+      "q3",
+      "9da8c65d-5858-3a4f-9166-9e35fa040ac0"
+    ]
+  ],
+  "Who are they playing against?": [
+    [
+      "q4",
+      "9812f34a-d035-388f-bf6d-504bb69b1867"
+    ]
+  ],
+  "When were they established?": [
+    [
+      "q4",
+      "2bf01027-74cf-3244-9f61-1c3cce64ff36"
+    ]
+  ],
+  "Is there any discount on ticket booking?": [
+    [
+      "q3",
+      "c3cf6a97-955d-3c37-b69c-f3829997e29c"
+    ]
+  ],
+  "How many people will be at the concert?": [
+    [
+      "q3",
+      "c8097e08-7824-31ec-bc11-5d6e1993f377"
+    ]
+  ],
+  "Can I choose the seat?": [
+    [
+      "q1",
+      "8941d53c-5070-3059-a265-00291481486e"
+    ]
+  ],
+  "What is the exact address?": [
+    [
+      "q3",
+      "a3f69aae-0f16-3e94-9409-18bc63c2b820"
+    ]
+  ],
+  "What is the cost of the ticket?": [
+    [
+      "q1",
+      "59fb538b-c197-3b76-b0f2-5837ddbc2cdb"
+    ]
+  ],
+  "How big is the venue?": [
+    [
+      "q1",
+      "11d5eb4e-bb4d-3cd2-a2ba-6440e15bdf2a"
+    ]
+  ],
+  "Where do I pick up the tickets?": [
+    [
+      "q2",
+      "a70c74a1-bc3f-3a73-9535-57425954ffd3"
+    ]
+  ],
+  "What is the average price of the tickets for the game?": [
+    [
+      "q1",
+      "adeee8a5-814e-3f40-84e2-74d266eb8d61"
+    ]
+  ],
+  "Are any refreshments available at the venue?": [
+    [
+      "q4",
+      "32654d27-a616-3022-9f31-ef0d7cea0302"
+    ]
+  ],
+  "Can we attend tomorrow?": [
+    [
+      "q4",
+      "cde6a46d-e60f-3dff-82be-2be53b26a320"
+    ]
+  ],
+  "What is the cost of parking at the venue?": [
+    [
+      "q1",
+      "2c5eedb6-b1a9-31d5-aa54-9fe0c647cb4f"
+    ]
+  ],
+  "What seats are available?": [
+    [
+      "q3",
+      "ada73083-8912-3547-99ba-63a4436a368f"
+    ]
+  ],
+  "Can I cancel my reservation?": [
+    [
+      "q4",
+      "42d738e5-6044-328c-a282-7751560b4925"
+    ]
+  ],
+  "Is there a discount for buying multiple tickets?": [
+    [
+      "q2",
+      "ec040f6c-9f93-3d5d-b022-9a909d6dbd6d"
+    ]
+  ],
+  "Can I bring a backpack to the venue?": [
+    [
+      "q3",
+      "f18b92f3-5bfb-3a8b-b6fa-1d6487025460"
+    ]
+  ],
+  "How many seats are available?": [
+    [
+      "q4",
+      "2f7e581d-3973-3444-b7c9-6d9e9120b46e"
+    ]
+  ],
+  "From where can we collect the event tickets?": [
+    [
+      "q1",
+      "e2d6c94a-33aa-3a89-83f5-86584c1cf409"
+    ]
+  ],
+  "How many people will be at this event?": [
+    [
+      "q4",
+      "1c7cf871-69d3-3f4f-ba09-d3056ccd99bb"
+    ]
+  ]
+}

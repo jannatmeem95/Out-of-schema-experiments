@@ -1,0 +1,119 @@
+P(s->Q) : 0.5
+P(Q->R) : 0.2
+Total simulated Conversations : 47300
+
+
+For picked 1 questions: 
+	Category: markov ,
+['Is there any halal cuisine available?']
+		 P(W->D):0.25: 
+			 PR(Q->R): 0----> Total Successful Convo: 14775
+			 PR(Q->R): 1----> Total Successful Convo: 14857
+Success rate: 0.005549915397631134
+
+	Category: frequency ,
+['Is it true that weekend prices are higher than weekday prices?']
+		 P(W->D):0.25: 
+			 PR(Q->R): 0----> Total Successful Convo: 14775
+			 PR(Q->R): 1----> Total Successful Convo: 14844
+Success rate: 0.0046700507614213195
+
+	Category: random ,
+['Does the restaurant have a Yelp rating?']
+		 P(W->D):0.25: 
+			 PR(Q->R): 0----> Total Successful Convo: 14775
+			 PR(Q->R): 1----> Total Successful Convo: 14792
+Success rate: 0.0011505922165820643
+
+
+For picked 5 questions: 
+	Category: markov ,
+['Is there any halal cuisine available?', 'Is it true that weekend prices are higher than weekday prices?', 'Is it possible to make a reservation online?', 'Is there a bar in the area?', "Is there any choice for a chef's special?"]
+		 P(W->D):0.25: 
+			 PR(Q->R): 0----> Total Successful Convo: 14775
+			 PR(Q->R): 1----> Total Successful Convo: 15160
+Success rate: 0.026057529610829102
+
+	Category: frequency ,
+['Is it true that weekend prices are higher than weekday prices?', 'Is there a restaurant that offers live music?', 'Is there a bar in the area?', 'Do the pricing change over the holidays?', 'What kind of meals do you recommend in this price range?']
+		 P(W->D):0.25: 
+			 PR(Q->R): 0----> Total Successful Convo: 14775
+			 PR(Q->R): 1----> Total Successful Convo: 15087
+Success rate: 0.021116751269035533
+
+	Category: random ,
+['Does the restaurant have a Yelp rating?', 'Is this a safe area?', 'Is there a restaurant where you may listen to live music?', 'Can I customize the spice level?', 'Is it possible to change the level of spice?']
+		 P(W->D):0.25: 
+			 PR(Q->R): 0----> Total Successful Convo: 14775
+			 PR(Q->R): 1----> Total Successful Convo: 14905
+Success rate: 0.008798646362098138
+
+
+For picked 10 questions: 
+	Category: markov ,
+['Is there any halal cuisine available?', 'Is it true that weekend prices are higher than weekday prices?', 'Is it possible to make a reservation online?', 'Is there a bar in the area?', "Is there any choice for a chef's special?", 'Brunch or dinner: which is less expensive?', 'Do the pricing change over the holidays?', 'What kind of meals do you recommend in this price range?', 'Are the desserts on par with the main courses?', 'In this pricing range, what kind of meals do customers normally prefer?']
+		 P(W->D):0.25: 
+			 PR(Q->R): 0----> Total Successful Convo: 14775
+			 PR(Q->R): 1----> Total Successful Convo: 15442
+Success rate: 0.04514382402707276
+
+	Category: frequency ,
+['Is it true that weekend prices are higher than weekday prices?', 'Is there a restaurant that offers live music?', 'Is there a bar in the area?', 'Do the pricing change over the holidays?', 'What kind of meals do you recommend in this price range?', 'In this pricing range, what kind of meals do customers normally prefer?', 'Is there a restaurant near a park that you can recommend?', 'Are the desserts on par with the main courses?', 'Is there a better lunch in this pricing range elsewhere?', 'Is there any halal cuisine available?']
+		 P(W->D):0.25: 
+			 PR(Q->R): 0----> Total Successful Convo: 14775
+			 PR(Q->R): 1----> Total Successful Convo: 15330
+Success rate: 0.03756345177664975
+
+	Category: random ,
+['Does the restaurant have a Yelp rating?', 'Is this a safe area?', 'Is there a restaurant where you may listen to live music?', 'Can I customize the spice level?', 'Is it possible to change the level of spice?', 'Can I pre-order my food online?', "Is there any chef's special option available?", 'Is it sunny during the day?', 'Is there any bar available in the area?', 'Is it possible to adjust the amount of spice?']
+		 P(W->D):0.25: 
+			 PR(Q->R): 0----> Total Successful Convo: 14775
+			 PR(Q->R): 1----> Total Successful Convo: 15038
+Success rate: 0.017800338409475466
+
+
+For picked 15 questions: 
+	Category: markov ,
+['Is there any halal cuisine available?', 'Is it true that weekend prices are higher than weekday prices?', 'Is it possible to make a reservation online?', 'Is there a bar in the area?', "Is there any choice for a chef's special?", 'Brunch or dinner: which is less expensive?', 'Do the pricing change over the holidays?', 'What kind of meals do you recommend in this price range?', 'Are the desserts on par with the main courses?', 'In this pricing range, what kind of meals do customers normally prefer?', 'Is there a restaurant near a park that you can recommend?', 'Is there any outside seating available?', 'Is the quality affected during peak hours?', 'Do prices go up around the holidays?', 'Is there an ice cream shop in the vicinity?']
+		 P(W->D):0.25: 
+			 PR(Q->R): 0----> Total Successful Convo: 14775
+			 PR(Q->R): 1----> Total Successful Convo: 15707
+Success rate: 0.06307952622673435
+
+	Category: frequency ,
+['Is it true that weekend prices are higher than weekday prices?', 'Is there a restaurant that offers live music?', 'Is there a bar in the area?', 'Do the pricing change over the holidays?', 'What kind of meals do you recommend in this price range?', 'In this pricing range, what kind of meals do customers normally prefer?', 'Is there a restaurant near a park that you can recommend?', 'Are the desserts on par with the main courses?', 'Is there a better lunch in this pricing range elsewhere?', 'Is there any halal cuisine available?', 'Do prices go up around the holidays?', 'Is there an ice cream shop in the vicinity?', 'Is there a Michelin star restaurant available?', 'When it comes to holidays, do the prices change?', 'Are weekend prices higher than weekday prices?']
+		 P(W->D):0.25: 
+			 PR(Q->R): 0----> Total Successful Convo: 14775
+			 PR(Q->R): 1----> Total Successful Convo: 15524
+Success rate: 0.05069373942470389
+
+	Category: random ,
+['Does the restaurant have a Yelp rating?', 'Is this a safe area?', 'Is there a restaurant where you may listen to live music?', 'Can I customize the spice level?', 'Is it possible to change the level of spice?', 'Can I pre-order my food online?', "Is there any chef's special option available?", 'Is it sunny during the day?', 'Is there any bar available in the area?', 'Is it possible to adjust the amount of spice?', 'Is it okay if I bring my pet?', 'Is it possible to make a reservation via the internet?', 'Is this area around the city center?', 'What is the maximum amount of time you should wait for food?', 'Is there a bar in the vicinity that I could go to?']
+		 P(W->D):0.25: 
+			 PR(Q->R): 0----> Total Successful Convo: 14775
+			 PR(Q->R): 1----> Total Successful Convo: 15159
+Success rate: 0.02598984771573604
+
+
+For picked 20 questions: 
+	Category: markov ,
+['Is there any halal cuisine available?', 'Is it true that weekend prices are higher than weekday prices?', 'Is it possible to make a reservation online?', 'Is there a bar in the area?', "Is there any choice for a chef's special?", 'Brunch or dinner: which is less expensive?', 'Do the pricing change over the holidays?', 'What kind of meals do you recommend in this price range?', 'Are the desserts on par with the main courses?', 'In this pricing range, what kind of meals do customers normally prefer?', 'Is there a restaurant near a park that you can recommend?', 'Is there any outside seating available?', 'Is the quality affected during peak hours?', 'Do prices go up around the holidays?', 'Is there an ice cream shop in the vicinity?', 'Is there any halal food?', 'Is there a restaurant that offers live music?', 'Is there a better lunch in this pricing range elsewhere?', 'Is brunch more affordable than dinner?', 'Is the wait time for serving less if I order a popular dish?']
+		 P(W->D):0.25: 
+			 PR(Q->R): 0----> Total Successful Convo: 14775
+			 PR(Q->R): 1----> Total Successful Convo: 15963
+Success rate: 0.08040609137055837
+
+	Category: frequency ,
+['Is it true that weekend prices are higher than weekday prices?', 'Is there a restaurant that offers live music?', 'Is there a bar in the area?', 'Do the pricing change over the holidays?', 'What kind of meals do you recommend in this price range?', 'In this pricing range, what kind of meals do customers normally prefer?', 'Is there a restaurant near a park that you can recommend?', 'Are the desserts on par with the main courses?', 'Is there a better lunch in this pricing range elsewhere?', 'Is there any halal cuisine available?', 'Do prices go up around the holidays?', 'Is there an ice cream shop in the vicinity?', 'Is there a Michelin star restaurant available?', 'When it comes to holidays, do the prices change?', 'Are weekend prices higher than weekday prices?', 'Brunch or dinner: which is less expensive?', 'How is the traffic in the area?', 'Is it possible to make a reservation online?', 'Is the quality affected during peak hours?', 'Is brunch more affordable than dinner?']
+		 P(W->D):0.25: 
+			 PR(Q->R): 0----> Total Successful Convo: 14775
+			 PR(Q->R): 1----> Total Successful Convo: 15773
+Success rate: 0.06754653130287648
+
+	Category: random ,
+['Does the restaurant have a Yelp rating?', 'Is this a safe area?', 'Is there a restaurant where you may listen to live music?', 'Can I customize the spice level?', 'Is it possible to change the level of spice?', 'Can I pre-order my food online?', "Is there any chef's special option available?", 'Is it sunny during the day?', 'Is there any bar available in the area?', 'Is it possible to adjust the amount of spice?', 'Is it okay if I bring my pet?', 'Is it possible to make a reservation via the internet?', 'Is this area around the city center?', 'What is the maximum amount of time you should wait for food?', 'Is there a bar in the vicinity that I could go to?', 'Is there free WiFi available?', 'Are gluten-free dishes available?', 'What is their most well-known dish?', 'Is the tip automatically included to the bill?', 'Is the gratuity added to the bill automatically?']
+		 P(W->D):0.25: 
+			 PR(Q->R): 0----> Total Successful Convo: 14775
+			 PR(Q->R): 1----> Total Successful Convo: 15241
+Success rate: 0.031539763113367175
+

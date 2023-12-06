@@ -1,0 +1,257 @@
+P(s->Q) : 0.4
+P(Q->R) : 0.2
+Total simulated conversations: 9100
+
+For picked 2 clusters:
+Category: markov ,
+No. of Clusters: ['11', '5'], No. of Questions : 14
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 638
+			 PR(Q->R): 1----> Total Successful Convo: 1188
+
+Success rate: 0.8620689655172413
+
+Category: frequency ,
+No. of Clusters: ['11', '5'], No. of Questions : 14
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 638
+			 PR(Q->R): 1----> Total Successful Convo: 1193
+
+Success rate: 0.8699059561128527
+
+Category: random ,
+No. of Clusters: ['46', '12'], No. of Questions : 3
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 638
+			 PR(Q->R): 1----> Total Successful Convo: 795
+
+Success rate: 0.24608150470219436
+
+For picked 3 clusters:
+Category: markov ,
+No. of Clusters: ['11', '5', '1'], No. of Questions : 20
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 638
+			 PR(Q->R): 1----> Total Successful Convo: 1350
+
+Success rate: 1.115987460815047
+
+Category: frequency ,
+No. of Clusters: ['11', '5', '1'], No. of Questions : 20
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 638
+			 PR(Q->R): 1----> Total Successful Convo: 1383
+
+Success rate: 1.1677115987460815
+
+Category: random ,
+No. of Clusters: ['46', '12', '32'], No. of Questions : 4
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 638
+			 PR(Q->R): 1----> Total Successful Convo: 859
+
+Success rate: 0.3463949843260188
+
+For picked 4 clusters:
+Category: markov ,
+No. of Clusters: ['11', '5', '1', '39'], No. of Questions : 24
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 638
+			 PR(Q->R): 1----> Total Successful Convo: 1535
+
+Success rate: 1.4059561128526645
+
+Category: frequency ,
+No. of Clusters: ['11', '5', '1', '39'], No. of Questions : 24
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 638
+			 PR(Q->R): 1----> Total Successful Convo: 1555
+
+Success rate: 1.4373040752351096
+
+Category: random ,
+No. of Clusters: ['46', '12', '32', '21'], No. of Questions : 6
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 638
+			 PR(Q->R): 1----> Total Successful Convo: 962
+
+Success rate: 0.5078369905956113
+
+For picked 5 clusters:
+Category: markov ,
+No. of Clusters: ['11', '5', '1', '39', '29'], No. of Questions : 28
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 638
+			 PR(Q->R): 1----> Total Successful Convo: 1704
+
+Success rate: 1.670846394984326
+
+Category: frequency ,
+No. of Clusters: ['11', '5', '1', '39', '29'], No. of Questions : 28
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 638
+			 PR(Q->R): 1----> Total Successful Convo: 1739
+
+Success rate: 1.725705329153605
+
+Category: random ,
+No. of Clusters: ['46', '12', '32', '21', '41'], No. of Questions : 7
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 638
+			 PR(Q->R): 1----> Total Successful Convo: 1024
+
+Success rate: 0.6050156739811913
+
+For picked 8 clusters:
+Category: markov ,
+No. of Clusters: ['11', '5', '1', '39', '29', '9', '6', '18'], No. of Questions : 36
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 638
+			 PR(Q->R): 1----> Total Successful Convo: 2146
+
+Success rate: 2.3636363636363638
+
+Category: frequency ,
+No. of Clusters: ['11', '5', '1', '39', '29', '9', '22', '6'], No. of Questions : 37
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 638
+			 PR(Q->R): 1----> Total Successful Convo: 2170
+
+Success rate: 2.4012539184952977
+
+Category: random ,
+No. of Clusters: ['46', '12', '32', '21', '41', '34', '36', '29'], No. of Questions : 13
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 638
+			 PR(Q->R): 1----> Total Successful Convo: 1266
+
+Success rate: 0.9843260188087775
+
+For picked 10 clusters:
+Category: markov ,
+No. of Clusters: ['11', '5', '1', '39', '29', '9', '6', '18', '3', '4'], No. of Questions : 40
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 638
+			 PR(Q->R): 1----> Total Successful Convo: 2381
+
+Success rate: 2.731974921630094
+
+Category: frequency ,
+No. of Clusters: ['11', '5', '1', '39', '29', '9', '22', '6', '19', '13'], No. of Questions : 42
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 638
+			 PR(Q->R): 1----> Total Successful Convo: 2358
+
+Success rate: 2.695924764890282
+
+Category: random ,
+No. of Clusters: ['46', '12', '32', '21', '41', '34', '36', '29', '38', '24'], No. of Questions : 15
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 638
+			 PR(Q->R): 1----> Total Successful Convo: 1336
+
+Success rate: 1.0940438871473355
+
+For picked 12 clusters:
+Category: markov ,
+No. of Clusters: ['11', '5', '1', '39', '29', '9', '6', '18', '3', '4', '22', '21'], No. of Questions : 45
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 638
+			 PR(Q->R): 1----> Total Successful Convo: 2602
+
+Success rate: 3.0783699059561127
+
+Category: frequency ,
+No. of Clusters: ['11', '5', '1', '39', '29', '9', '22', '6', '19', '13', '8', '21'], No. of Questions : 46
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 638
+			 PR(Q->R): 1----> Total Successful Convo: 2551
+
+Success rate: 2.998432601880878
+
+Category: random ,
+No. of Clusters: ['46', '12', '32', '21', '41', '34', '36', '29', '38', '24', '3', '17'], No. of Questions : 18
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 638
+			 PR(Q->R): 1----> Total Successful Convo: 1516
+
+Success rate: 1.3761755485893417
+
+For picked 15 clusters:
+Category: markov ,
+No. of Clusters: ['11', '5', '1', '39', '29', '9', '6', '18', '3', '4', '22', '21', '12', '49', '13'], No. of Questions : 51
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 638
+			 PR(Q->R): 1----> Total Successful Convo: 2908
+
+Success rate: 3.5579937304075235
+
+Category: frequency ,
+No. of Clusters: ['11', '5', '1', '39', '29', '9', '22', '6', '19', '13', '8', '21', '18', '3', '25'], No. of Questions : 52
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 638
+			 PR(Q->R): 1----> Total Successful Convo: 2837
+
+Success rate: 3.446708463949843
+
+Category: random ,
+No. of Clusters: ['46', '12', '32', '21', '41', '34', '36', '29', '38', '24', '3', '17', '45', '33', '39'], No. of Questions : 24
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 638
+			 PR(Q->R): 1----> Total Successful Convo: 1794
+
+Success rate: 1.811912225705329
+
+For picked 17 clusters:
+Category: markov ,
+No. of Clusters: ['11', '5', '1', '39', '29', '9', '6', '18', '3', '4', '22', '21', '12', '49', '13', '20', '19'], No. of Questions : 56
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 638
+			 PR(Q->R): 1----> Total Successful Convo: 3055
+
+Success rate: 3.7884012539184955
+
+Category: frequency ,
+No. of Clusters: ['11', '5', '1', '39', '29', '9', '22', '6', '19', '13', '8', '21', '18', '3', '25', '20', '12'], No. of Questions : 56
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 638
+			 PR(Q->R): 1----> Total Successful Convo: 3017
+
+Success rate: 3.7288401253918497
+
+Category: random ,
+No. of Clusters: ['46', '12', '32', '21', '41', '34', '36', '29', '38', '24', '3', '17', '45', '33', '39', '27', '16'], No. of Questions : 26
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 638
+			 PR(Q->R): 1----> Total Successful Convo: 1875
+
+Success rate: 1.938871473354232
+
+For picked 20 clusters:
+Category: markov ,
+No. of Clusters: ['11', '5', '1', '39', '29', '9', '6', '18', '3', '4', '22', '21', '12', '49', '13', '20', '19', '8', '32', '37'], No. of Questions : 60
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 638
+			 PR(Q->R): 1----> Total Successful Convo: 3268
+
+Success rate: 4.122257053291536
+
+Category: frequency ,
+No. of Clusters: ['11', '5', '1', '39', '29', '9', '22', '6', '19', '13', '8', '21', '18', '3', '25', '20', '12', '4', '49', '26'], No. of Questions : 61
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 638
+			 PR(Q->R): 1----> Total Successful Convo: 3305
+
+Success rate: 4.1802507836990594
+
+Category: random ,
+No. of Clusters: ['46', '12', '32', '21', '41', '34', '36', '29', '38', '24', '3', '17', '45', '33', '39', '27', '16', '15', '44', '20'], No. of Questions : 30
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 638
+			 PR(Q->R): 1----> Total Successful Convo: 2088
+
+Success rate: 2.272727272727273
+
+
+
+reference number: 4144411145

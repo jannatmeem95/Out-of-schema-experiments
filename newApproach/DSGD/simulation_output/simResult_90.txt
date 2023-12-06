@@ -1,0 +1,279 @@
+P(s->Q) : 0.4
+P(Q->R) : 0.2
+Total simulated Conversations : 13100
+
+
+For picked 1 questions: 
+	Category: markov ,
+['How much are the tickets?']
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 599
+			 PR(Q->R): 1----> Total Successful Convo: 706
+Success rate: 0.17863105175292154
+
+	Category: frequency ,
+['At what time does it start?']
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 599
+			 PR(Q->R): 1----> Total Successful Convo: 664
+Success rate: 0.10851419031719532
+
+	Category: random ,
+['When are they playing next?']
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 599
+			 PR(Q->R): 1----> Total Successful Convo: 661
+Success rate: 0.10350584307178631
+
+
+For picked 2 questions: 
+	Category: markov ,
+['How much are the tickets?', 'How much do the tickets cost?']
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 599
+			 PR(Q->R): 1----> Total Successful Convo: 800
+Success rate: 0.335559265442404
+
+	Category: frequency ,
+['At what time does it start?', 'How much do the tickets cost?']
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 599
+			 PR(Q->R): 1----> Total Successful Convo: 747
+Success rate: 0.24707846410684475
+
+	Category: random ,
+['When are they playing next?', 'What time does the show start?']
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 599
+			 PR(Q->R): 1----> Total Successful Convo: 727
+Success rate: 0.21368948247078465
+
+
+For picked 3 questions: 
+	Category: markov ,
+['How much are the tickets?', 'How much do the tickets cost?', 'What genre of music is it?']
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 599
+			 PR(Q->R): 1----> Total Successful Convo: 885
+Success rate: 0.4774624373956594
+
+	Category: frequency ,
+['At what time does it start?', 'How much do the tickets cost?', 'What genre of music is it?']
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 599
+			 PR(Q->R): 1----> Total Successful Convo: 845
+Success rate: 0.41068447412353926
+
+	Category: random ,
+['When are they playing next?', 'What time does the show start?', 'When did the event sell out?']
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 599
+			 PR(Q->R): 1----> Total Successful Convo: 786
+Success rate: 0.3121869782971619
+
+
+For picked 5 questions: 
+	Category: markov ,
+['How much are the tickets?', 'How much do the tickets cost?', 'What genre of music is it?', 'How much is the ticket?', 'At what time does it start?']
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 599
+			 PR(Q->R): 1----> Total Successful Convo: 1037
+Success rate: 0.7312186978297162
+
+	Category: frequency ,
+['At what time does it start?', 'How much do the tickets cost?', 'What genre of music is it?', 'What kind of music do they play?', 'How much are the tickets?']
+			 PR(Q->R): 0----> Total Successful Convo: 599
+			 PR(Q->R): 1----> Total Successful Convo: 994
+Success rate: 0.659432387312187
+
+	Category: random ,
+['When are they playing next?', 'What time does the show start?', 'When did the event sell out?', 'What time does that show start?', 'Has she ever won a grammy award?']
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 599
+			 PR(Q->R): 1----> Total Successful Convo: 901
+Success rate: 0.5041736227045075
+
+
+For picked 7 questions: 
+	Category: markov ,
+['How much are the tickets?', 'How much do the tickets cost?', 'What genre of music is it?', 'How much is the ticket?', 'At what time does it start?', 'What items are not allowed to be brought in?', 'Are there any bars near the venue?']
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 599
+			 PR(Q->R): 1----> Total Successful Convo: 1167
+Success rate: 0.9482470784641068
+
+	Category: frequency ,
+['At what time does it start?', 'How much do the tickets cost?', 'What genre of music is it?', 'What kind of music do they play?', 'How much are the tickets?', 'How much is the ticket?', 'How long has the festival been running?']
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 599
+			 PR(Q->R): 1----> Total Successful Convo: 1120
+Success rate: 0.8697829716193656
+
+	Category: random ,
+['When are they playing next?', 'What time does the show start?', 'When did the event sell out?', 'What time does that show start?', 'Has she ever won a grammy award?', 'What kind of music do they play?', 'Can I bring beer to the festival?']
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 599
+			 PR(Q->R): 1----> Total Successful Convo: 986
+Success rate: 0.6460767946577629
+
+
+For picked 8 questions: 
+	Category: markov ,
+['How much are the tickets?', 'How much do the tickets cost?', 'What genre of music is it?', 'How much is the ticket?', 'At what time does it start?', 'What items are not allowed to be brought in?', 'Are there any bars near the venue?', 'Can you recommend anything else we might enjoy in the area?']
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 599
+			 PR(Q->R): 1----> Total Successful Convo: 1228
+Success rate: 1.0500834724540902
+
+	Category: frequency ,
+['At what time does it start?', 'How much do the tickets cost?', 'What genre of music is it?', 'What kind of music do they play?', 'How much are the tickets?', 'How much is the ticket?', 'How long has the festival been running?', 'What items are not allowed to be brought in?']
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 599
+			 PR(Q->R): 1----> Total Successful Convo: 1188
+Success rate: 0.9833055091819699
+
+	Category: random ,
+['When are they playing next?', 'What time does the show start?', 'When did the event sell out?', 'What time does that show start?', 'Has she ever won a grammy award?', 'What kind of music do they play?', 'Can I bring beer to the festival?', 'At what time will the event start?']
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 599
+			 PR(Q->R): 1----> Total Successful Convo: 1003
+Success rate: 0.674457429048414
+
+
+For picked 10 questions: 
+	Category: markov ,
+['How much are the tickets?', 'How much do the tickets cost?', 'What genre of music is it?', 'How much is the ticket?', 'At what time does it start?', 'What items are not allowed to be brought in?', 'Are there any bars near the venue?', 'Can you recommend anything else we might enjoy in the area?', 'Can you tell me what time the event will finish?', 'Could you tell me how both teams are doing this season?']
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 599
+			 PR(Q->R): 1----> Total Successful Convo: 1348
+Success rate: 1.2504173622704509
+
+	Category: frequency ,
+['At what time does it start?', 'How much do the tickets cost?', 'What genre of music is it?', 'What kind of music do they play?', 'How much are the tickets?', 'How much is the ticket?', 'How long has the festival been running?', 'What items are not allowed to be brought in?', 'Are there any bars near the venue?', 'Which acts have been opening for him?']
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 599
+			 PR(Q->R): 1----> Total Successful Convo: 1261
+Success rate: 1.1051752921535893
+
+	Category: random ,
+['When are they playing next?', 'What time does the show start?', 'When did the event sell out?', 'What time does that show start?', 'Has she ever won a grammy award?', 'What kind of music do they play?', 'Can I bring beer to the festival?', 'At what time will the event start?', "Where's the best place to park?", 'How much do the tickets cost?']
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 599
+			 PR(Q->R): 1----> Total Successful Convo: 1089
+Success rate: 0.8180300500834724
+
+
+For picked 12 questions: 
+	Category: markov ,
+['How much are the tickets?', 'How much do the tickets cost?', 'What genre of music is it?', 'How much is the ticket?', 'At what time does it start?', 'What items are not allowed to be brought in?', 'Are there any bars near the venue?', 'Can you recommend anything else we might enjoy in the area?', 'Can you tell me what time the event will finish?', 'Could you tell me how both teams are doing this season?', 'Could you search for other events in the area?', 'How much is the ticket price?']
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 599
+			 PR(Q->R): 1----> Total Successful Convo: 1462
+Success rate: 1.4407345575959933
+
+	Category: frequency ,
+['At what time does it start?', 'How much do the tickets cost?', 'What genre of music is it?', 'What kind of music do they play?', 'How much are the tickets?', 'How much is the ticket?', 'How long has the festival been running?', 'What items are not allowed to be brought in?', 'Are there any bars near the venue?', 'Which acts have been opening for him?', 'How much will the tickets cost?', 'At what time will the event start?']
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 599
+			 PR(Q->R): 1----> Total Successful Convo: 1311
+Success rate: 1.1886477462437395
+
+	Category: random ,
+['When are they playing next?', 'What time does the show start?', 'When did the event sell out?', 'What time does that show start?', 'Has she ever won a grammy award?', 'What kind of music do they play?', 'Can I bring beer to the festival?', 'At what time will the event start?', "Where's the best place to park?", 'How much do the tickets cost?', 'Where do I pick up the tickets?', 'Are the tickets changeable?']
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 599
+			 PR(Q->R): 1----> Total Successful Convo: 1173
+Success rate: 0.9582637729549248
+
+
+For picked 14 questions: 
+	Category: markov ,
+['How much are the tickets?', 'How much do the tickets cost?', 'What genre of music is it?', 'How much is the ticket?', 'At what time does it start?', 'What items are not allowed to be brought in?', 'Are there any bars near the venue?', 'Can you recommend anything else we might enjoy in the area?', 'Can you tell me what time the event will finish?', 'Could you tell me how both teams are doing this season?', 'Could you search for other events in the area?', 'How much is the ticket price?', 'Is parking available at the venue?', 'Is there merchandise at this event?']
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 599
+			 PR(Q->R): 1----> Total Successful Convo: 1581
+Success rate: 1.639398998330551
+
+	Category: frequency ,
+['At what time does it start?', 'How much do the tickets cost?', 'What genre of music is it?', 'What kind of music do they play?', 'How much are the tickets?', 'How much is the ticket?', 'How long has the festival been running?', 'What items are not allowed to be brought in?', 'Are there any bars near the venue?', 'Which acts have been opening for him?', 'How much will the tickets cost?', 'At what time will the event start?', 'Can I bring my bags?', 'Do you know where did he last played?']
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 599
+			 PR(Q->R): 1----> Total Successful Convo: 1357
+Success rate: 1.2654424040066778
+
+	Category: random ,
+['When are they playing next?', 'What time does the show start?', 'When did the event sell out?', 'What time does that show start?', 'Has she ever won a grammy award?', 'What kind of music do they play?', 'Can I bring beer to the festival?', 'At what time will the event start?', "Where's the best place to park?", 'How much do the tickets cost?', 'Where do I pick up the tickets?', 'Are the tickets changeable?', 'What is the average price of the tickets for the game?', 'Can you reserve a ticket for the next time the teams are playing?']
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 599
+			 PR(Q->R): 1----> Total Successful Convo: 1257
+Success rate: 1.0984974958263773
+
+
+For picked 15 questions: 
+	Category: markov ,
+['How much are the tickets?', 'How much do the tickets cost?', 'What genre of music is it?', 'How much is the ticket?', 'At what time does it start?', 'What items are not allowed to be brought in?', 'Are there any bars near the venue?', 'Can you recommend anything else we might enjoy in the area?', 'Can you tell me what time the event will finish?', 'Could you tell me how both teams are doing this season?', 'Could you search for other events in the area?', 'How much is the ticket price?', 'Is parking available at the venue?', 'Is there merchandise at this event?', 'What are similar events to this one happening in April?']
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 599
+			 PR(Q->R): 1----> Total Successful Convo: 1650
+Success rate: 1.7545909849749584
+
+	Category: frequency ,
+['At what time does it start?', 'How much do the tickets cost?', 'What genre of music is it?', 'What kind of music do they play?', 'How much are the tickets?', 'How much is the ticket?', 'How long has the festival been running?', 'What items are not allowed to be brought in?', 'Are there any bars near the venue?', 'Which acts have been opening for him?', 'How much will the tickets cost?', 'At what time will the event start?', 'Can I bring my bags?', 'Do you know where did he last played?', 'Can you recommend anything else we might enjoy in the area?']
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 599
+			 PR(Q->R): 1----> Total Successful Convo: 1423
+Success rate: 1.3756260434056762
+
+	Category: random ,
+['When are they playing next?', 'What time does the show start?', 'When did the event sell out?', 'What time does that show start?', 'Has she ever won a grammy award?', 'What kind of music do they play?', 'Can I bring beer to the festival?', 'At what time will the event start?', "Where's the best place to park?", 'How much do the tickets cost?', 'Where do I pick up the tickets?', 'Are the tickets changeable?', 'What is the average price of the tickets for the game?', 'Can you reserve a ticket for the next time the teams are playing?', 'What are similar events to this one happening in April?']
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 599
+			 PR(Q->R): 1----> Total Successful Convo: 1312
+Success rate: 1.1903171953255425
+
+
+For picked 17 questions: 
+	Category: markov ,
+['How much are the tickets?', 'How much do the tickets cost?', 'What genre of music is it?', 'How much is the ticket?', 'At what time does it start?', 'What items are not allowed to be brought in?', 'Are there any bars near the venue?', 'Can you recommend anything else we might enjoy in the area?', 'Can you tell me what time the event will finish?', 'Could you tell me how both teams are doing this season?', 'Could you search for other events in the area?', 'How much is the ticket price?', 'Is parking available at the venue?', 'Is there merchandise at this event?', 'What are similar events to this one happening in April?', 'What genre of event is it?', 'What is the venue called for the game?']
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 599
+			 PR(Q->R): 1----> Total Successful Convo: 1769
+Success rate: 1.9532554257095158
+
+	Category: frequency ,
+['At what time does it start?', 'How much do the tickets cost?', 'What genre of music is it?', 'What kind of music do they play?', 'How much are the tickets?', 'How much is the ticket?', 'How long has the festival been running?', 'What items are not allowed to be brought in?', 'Are there any bars near the venue?', 'Which acts have been opening for him?', 'How much will the tickets cost?', 'At what time will the event start?', 'Can I bring my bags?', 'Do you know where did he last played?', 'Can you recommend anything else we might enjoy in the area?', 'Can you tell me what time the event will finish?', 'Could you tell me how both teams are doing this season?']
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 599
+			 PR(Q->R): 1----> Total Successful Convo: 1537
+Success rate: 1.5659432387312187
+
+	Category: random ,
+['When are they playing next?', 'What time does the show start?', 'When did the event sell out?', 'What time does that show start?', 'Has she ever won a grammy award?', 'What kind of music do they play?', 'Can I bring beer to the festival?', 'At what time will the event start?', "Where's the best place to park?", 'How much do the tickets cost?', 'Where do I pick up the tickets?', 'Are the tickets changeable?', 'What is the average price of the tickets for the game?', 'Can you reserve a ticket for the next time the teams are playing?', 'What are similar events to this one happening in April?', 'What other events are happening on the same day?', 'Is parking available at the venue?']
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 599
+			 PR(Q->R): 1----> Total Successful Convo: 1430
+Success rate: 1.3873121869782972
+
+
+For picked 20 questions: 
+	Category: markov ,
+['How much are the tickets?', 'How much do the tickets cost?', 'What genre of music is it?', 'How much is the ticket?', 'At what time does it start?', 'What items are not allowed to be brought in?', 'Are there any bars near the venue?', 'Can you recommend anything else we might enjoy in the area?', 'Can you tell me what time the event will finish?', 'Could you tell me how both teams are doing this season?', 'Could you search for other events in the area?', 'How much is the ticket price?', 'Is parking available at the venue?', 'Is there merchandise at this event?', 'What are similar events to this one happening in April?', 'What genre of event is it?', 'What is the venue called for the game?', 'How long until the two teams play again?', 'What time does the show start?', 'Has she ever won a grammy award?']
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 599
+			 PR(Q->R): 1----> Total Successful Convo: 1959
+Success rate: 2.2704507512520866
+
+	Category: frequency ,
+['At what time does it start?', 'How much do the tickets cost?', 'What genre of music is it?', 'What kind of music do they play?', 'How much are the tickets?', 'How much is the ticket?', 'How long has the festival been running?', 'What items are not allowed to be brought in?', 'Are there any bars near the venue?', 'Which acts have been opening for him?', 'How much will the tickets cost?', 'At what time will the event start?', 'Can I bring my bags?', 'Do you know where did he last played?', 'Can you recommend anything else we might enjoy in the area?', 'Can you tell me what time the event will finish?', 'Could you tell me how both teams are doing this season?', 'Could you search for other events in the area?', 'Do I need to come half an hour early before the event starts?', 'Is there any discount on tickets for students?']
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 599
+			 PR(Q->R): 1----> Total Successful Convo: 1629
+Success rate: 1.7195325542570952
+
+	Category: random ,
+['When are they playing next?', 'What time does the show start?', 'When did the event sell out?', 'What time does that show start?', 'Has she ever won a grammy award?', 'What kind of music do they play?', 'Can I bring beer to the festival?', 'At what time will the event start?', "Where's the best place to park?", 'How much do the tickets cost?', 'Where do I pick up the tickets?', 'Are the tickets changeable?', 'What is the average price of the tickets for the game?', 'Can you reserve a ticket for the next time the teams are playing?', 'What are similar events to this one happening in April?', 'What other events are happening on the same day?', 'Is parking available at the venue?', 'Are the tickets refundable?', 'At what time does it start?', 'Are any refreshments available at the venue?']
+		 P(W->D):0.9: 
+			 PR(Q->R): 0----> Total Successful Convo: 599
+			 PR(Q->R): 1----> Total Successful Convo: 1620
+Success rate: 1.7045075125208682
+

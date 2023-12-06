@@ -1,0 +1,279 @@
+{
+  "14": [
+    "Is it possible to pay with American Express?",
+    "Is it possible for me to pay with American Express?",
+    "Can I pay with American Express?"
+  ],
+  "4": [
+    "Is there any bar available in the area?",
+    "Is there a fully stocked bar?",
+    "Is there a bar in the area?",
+    "Is there a bar in the vicinity that I could go to?",
+    "Is there a bar in the neighborhood?"
+  ],
+  "35": [
+    "Is there a restaurant that offers live music?",
+    "Is there a restaurant where you may listen to live music?",
+    "Is there a place where you can hear live music?",
+    "Is there a restaurant where live music is performed?"
+  ],
+  "10": [
+    "Is the tip included in the bill automatically?",
+    "Is the tip automatically included to the bill?",
+    "Is the tip included in the bill?",
+    "Is the gratuity added to the bill automatically?"
+  ],
+  "8": [
+    "Is there a metro station close by?",
+    "Is there any metro station in the area?",
+    "Is there a metro station in the immediate vicinity?",
+    "Is the area served by a metro station?"
+  ],
+  "18": [
+    "Is the quality affected during peak hours?",
+    "Is the quality of the service affected during peak hours?",
+    "Is there a drop in quality during peak times?",
+    "Does the quality degrade during the busy hours?"
+  ],
+  "38": [
+    "Is brunch more affordable than dinner?",
+    "Brunch or dinner: which is less expensive?",
+    "Is brunch cheaper than dinner?",
+    "Is brunch less pricey than dinner?"
+  ],
+  "5": [
+    "Is there a better deal in this price range somewhere else?",
+    "Is there a better option somewhere else in this price range?",
+    "Is there a better lunch in this pricing range elsewhere?",
+    "Can I get a better meal in this price somewhere else?"
+  ],
+  "11": [
+    "Is it possible to alter the level of spice?",
+    "Can I customize the spice level?",
+    "Is it possible to adjust the amount of spice?",
+    "Is it possible to change the level of spice?"
+  ],
+  "17": [
+    "Is there a place appropriate for a business meeting?",
+    "Is there a restaurant appropriate for a business meeting?",
+    "Is there a restaurant where a business meeting might be held?",
+    "Can you suggest a good restaurant for a business meeting?"
+  ],
+  "25": [
+    "Can I make a reservation online?",
+    "Is it possible to make a reservation via the internet?",
+    "Is it possible to make a reservation online?"
+  ],
+  "9": [
+    "Is it true that weekend prices are higher than weekday prices?",
+    "Is it real that weekends are more costly than weekdays?",
+    "Are weekend prices higher than weekday prices?",
+    "Are the weekends more expensive than weekdays?"
+  ],
+  "22": [
+    "Is there any halal cuisine available?",
+    "Is there any halal food?",
+    "Is halal food available?",
+    "Is there halal cuisine on the menu?"
+  ],
+  "45": [
+    "Is it open until the wee hours?",
+    "Does it remain open after midnight?"
+  ],
+  "24": [
+    "Is it possible to get a family platter?",
+    "Are family platters available?",
+    "Can you suggest any family platters?",
+    "Is it possible to get family platters?"
+  ],
+  "47": [
+    "What kind of attractions can you find in the area?",
+    "What are the local attractions?",
+    "What are local attractions like?"
+  ],
+  "43": [
+    "Do prices go up around the holidays?",
+    "Do rates fluctuate during the holidays?"
+  ],
+  "1": [
+    "Is the wait time for serving less if I order a popular dish?",
+    "Is there a shorter wait for service if I order a famous dish?",
+    "Is there a shorter wait for a famous dish when I order it?",
+    "Is there a shorter wait for a popular dish if I order it?",
+    "What is the maximum amount of time you should wait for food?"
+  ],
+  "13": [
+    "Is there a jazz club that serves affordable fare?",
+    "Is there a jazz club with a reasonable menu?",
+    "Is there any jazz club that serves cheap food?",
+    "Is there a jazz club that serves affordable fare? "
+  ],
+  "27": [
+    "Are there any desserts that are suitable for diabetics?",
+    "Are there any desserts that are diabetic-friendly?",
+    "Is it possible to find sweets that are suitable for diabetics?",
+    "Are there any diabetes-friendly desserts?"
+  ],
+  "3": [
+    "Are the desserts as delicious as the main courses?",
+    "Are the desserts as good as the main dishes?",
+    "Is the quality of the desserts comparable to the quality of the main courses?",
+    "Are the desserts on par with the main courses?"
+  ],
+  "0": [
+    "Is there any chef's special option available?",
+    "Is there any chef's special option?",
+    "Is there any way to get a chef's special?",
+    "Is there any choice for a chef's special?"
+  ],
+  "33": [
+    "Is the food's taste appropriate with the price?",
+    "Which type of food people usually prefer in this price range?",
+    "In this pricing range, what kind of meals do most customers prefer?",
+    "What kind of meals do you recommend in this price range?",
+    "In this pricing range, what kind of meals do customers normally prefer?",
+    "Is the food worth the price?",
+    "Does the food quality match the price range?"
+  ],
+  "41": [
+    "Is this a neighborhood near the city center?",
+    "What is the distance from the city center?",
+    "How far is it from the city center?",
+    "Is this area around the city center?"
+  ],
+  "29": [
+    "What is the current state of the traffic in the area?",
+    "What is the current state of the traffic in this area?",
+    "How is the traffic in the area?"
+  ],
+  "31": [
+    "Which restaurants accept pre-order for reserved guests?",
+    "Which restaurants take pre-order for the reserved guests?",
+    "Which restaurants allow reserved visitors to place a pre-order?",
+    "Which restaurants allow reserved guests to place an order in advance?"
+  ],
+  "2": [
+    "Is there an ice cream shop in the vicinity?",
+    "Is there any ice cream parlor in the neighborhood?",
+    "Is there an ice cream shop in the area?",
+    "Is there a nearby ice cream shop?"
+  ],
+  "20": [
+    "Is there any parking that is free?",
+    "Is there any parking available for free?",
+    "Is there free parking?"
+  ],
+  "23": [
+    "Are there any gluten-free options?",
+    "Is it possible to order gluten-free food?",
+    "Are gluten-free dishes available?",
+    "Are there gluten-free options?",
+    "Can I pre-order my food online?"
+  ],
+  "15": [
+    "Is there a restaurant close to a park?",
+    "Is there a restaurant near a park that you can recommend?",
+    "Can you suggest a restaurant that is close to a park?",
+    "Can you recommend a restaurant near a park?"
+  ],
+  "44": [
+    "What\u2019s the best place to eat by the airport?",
+    "Where should I dine near the airport?",
+    "What is the greatest restaurant near the airport?",
+    "Can you suggest a good restaurant near the airport?"
+  ],
+  "36": [
+    "Is the restaurant's produce organic?",
+    "Is the restaurant using organic ingredients?"
+  ],
+  "39": [
+    "Do the pricing change over the holidays?",
+    "When it comes to holidays, do the prices change?"
+  ],
+  "21": [
+    "What time does the restaurant close?",
+    "When does the restaurant shut down for the night?",
+    "What is the restaurant's closing time?"
+  ],
+  "37": [
+    "Is there a Michelin star restaurant available?",
+    "Is there a yelp rating for the restaurant?",
+    "Is a Michelin-starred restaurant nearby?",
+    "Does the restaurant have a Yelp rating?"
+  ],
+  "32": [
+    "What is the most famous brunch spot in town?",
+    "What is the hottest brunch spot in town?",
+    "What\u2019s the most hyped restaurant for brunch?",
+    "What is the most talked-about brunch spot?"
+  ],
+  "7": [
+    "Is there a vegan option?",
+    "Is there a vegan option available?",
+    "Is there a vegan alternative?",
+    "Is it possible to have a vegan dish?"
+  ],
+  "49": [
+    "Is it possible to sit outside?"
+  ],
+  "30": [
+    "How are visitors handled in this city?",
+    "What is the treatment like for visitors in this city?",
+    "How are tourists treated here?",
+    "How are visitors handled in this area?"
+  ],
+  "19": [
+    "Could you please add me to the waiting list?",
+    "Can you put me into the waitlist?",
+    "Is it possible for you to add me to the waiting list?",
+    "Is it possible to add me to the waiting list?"
+  ],
+  "12": [
+    "Is it sunny during the day?",
+    "During the day, how sunny is it?",
+    "How sunny is it during the day?",
+    "What time of day is it the most sunny?"
+  ],
+  "26": [
+    "Is this an area where I can feel secure?",
+    "Is this a secure location?",
+    "Is this a safe area?",
+    "Is this a secure place to be?"
+  ],
+  "16": [
+    "Is it okay if I bring my pet?",
+    "Is it possible for me to bring my pet?",
+    "Can I bring my pet along?",
+    "Is it okay if I bring my pet with me?"
+  ],
+  "28": [
+    "Do they offer any coupons or promo codes?",
+    "Are there any discounts or coupons available?",
+    "Are there any coupons or promotional codes available?"
+  ],
+  "48": [
+    "Is the restaurant child friendly?",
+    "Is this a kid-friendly restaurant?"
+  ],
+  "6": [
+    "Is there a no-show policy at the restaurant?",
+    "Does the restaurant have a no-show policy?",
+    "Is there a no-show policy in effect at the restaurant?"
+  ],
+  "46": [
+    "What is their most well-known dish?",
+    "What is their most popular dish?",
+    "Which of their dishes is the most popular?"
+  ],
+  "34": [
+    "Is there free WiFi available?",
+    "Do they have free wifi?"
+  ],
+  "42": [
+    "Is there any outside seating available?",
+    "Do they have outdoor seating?"
+  ],
+  "40": [
+    "How long should you expect to wait before being served?"
+  ]
+}

@@ -1,0 +1,1822 @@
+{
+  "Is it possible to pay with American Express?": [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is there halal cuisine on the menu?": [
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is there any chef's special option?": [
+    0,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is there any bar available in the area?": [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Is there a fully stocked bar?": [
+    0,
+    2,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is there a restaurant that offers live music?": [
+    7,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is the tip included in the bill automatically?": [
+    0,
+    0,
+    2,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Is there a metro station close by?": [
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is the quality affected during peak hours?": [
+    0,
+    0,
+    2,
+    0,
+    2,
+    0,
+    0,
+    0
+  ],
+  "Is brunch more affordable than dinner?": [
+    0,
+    0,
+    1,
+    2,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Is it possible to have a vegan dish?": [
+    0,
+    1,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is there a better deal in this price range somewhere else?": [
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is there a bar in the area?": [
+    0,
+    1,
+    4,
+    2,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is it possible to alter the level of spice?": [
+    0,
+    0,
+    2,
+    3,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Is there a place appropriate for a business meeting?": [
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Can I make a reservation online?": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is it true that weekend prices are higher than weekday prices?": [
+    0,
+    0,
+    5,
+    3,
+    1,
+    0,
+    0,
+    0
+  ],
+  "How long should you wait to be served?": [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is there a restaurant where you may listen to live music?": [
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is there any halal cuisine available?": [
+    0,
+    1,
+    1,
+    0,
+    3,
+    0,
+    0,
+    0
+  ],
+  "Is it open until the wee hours?": [
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is it possible to get a family platter?": [
+    0,
+    0,
+    1,
+    2,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is it possible to make a reservation via the internet?": [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Are there any gluten-free options?": [
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0
+  ],
+  "What kind of attractions can you find in the area?": [
+    0,
+    1,
+    0,
+    1,
+    2,
+    0,
+    0,
+    0
+  ],
+  "Do prices go up around the holidays?": [
+    0,
+    1,
+    3,
+    1,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Can you recommend a restaurant near a park?": [
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is the wait time for serving less if I order a popular dish?": [
+    0,
+    0,
+    2,
+    1,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Are family platters available?": [
+    0,
+    0,
+    2,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is there a jazz club that serves affordable fare?": [
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Are there any desserts that are suitable for diabetics?": [
+    0,
+    0,
+    2,
+    2,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Are the desserts as delicious as the main courses?": [
+    0,
+    2,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is there an ice cream shop in the area?": [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is there any chef's special option available?": [
+    0,
+    0,
+    2,
+    2,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is the food's taste appropriate with the price?": [
+    0,
+    0,
+    2,
+    1,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Can you suggest any family platters?": [
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "What is the current state of the traffic in the area?": [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Is there any halal food?": [
+    0,
+    2,
+    1,
+    0,
+    2,
+    0,
+    0,
+    0
+  ],
+  "Is there a bar in the vicinity that I could go to?": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Which restaurants accept pre-order for reserved guests?": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Which type of food people usually prefer in this price range?": [
+    0,
+    0,
+    2,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is the quality of the service affected during peak hours?": [
+    0,
+    2,
+    2,
+    0,
+    2,
+    0,
+    0,
+    0
+  ],
+  "Is there an ice cream shop in the vicinity?": [
+    0,
+    0,
+    2,
+    1,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Is there a bar in the neighborhood?": [
+    0,
+    0,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is this area around the city center?": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Is there a restaurant close to a park?": [
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is it possible to order gluten-free food?": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Can I customize the spice level?": [
+    0,
+    1,
+    3,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Is there any way to get a chef's special?": [
+    0,
+    0,
+    2,
+    3,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is there any parking available for free?": [
+    0,
+    0,
+    2,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Are gluten-free dishes available?": [
+    0,
+    1,
+    2,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Is there a drop in quality during peak times?": [
+    0,
+    2,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is the restaurant's produce organic?": [
+    0,
+    0,
+    2,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Is there a shorter wait for service if I order a famous dish?": [
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Are the desserts as good as the main dishes?": [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Do the pricing change over the holidays?": [
+    0,
+    0,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "What time does the restaurant close?": [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "What kind of meals do you recommend in this price range?": [
+    0,
+    0,
+    4,
+    1,
+    1,
+    0,
+    0,
+    0
+  ],
+  "What is the current state of the traffic in this area?": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    0,
+    0,
+    0
+  ],
+  "Is there a jazz club with a reasonable menu?": [
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is it possible for me to pay with American Express?": [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Is it real that weekends are more costly than weekdays?": [
+    0,
+    0,
+    4,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "What are the local attractions?": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "In this pricing range, what kind of meals do customers normally prefer?": [
+    0,
+    1,
+    4,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "What is the most famous brunch spot in town?": [
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is there a vegan option?": [
+    0,
+    1,
+    2,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is it possible to sit outside?": [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "How are visitors handled in this city?": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is there any metro station in the area?": [
+    0,
+    0,
+    2,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Are there any desserts that are diabetic-friendly?": [
+    0,
+    0,
+    2,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Is there any choice for a chef's special?": [
+    0,
+    0,
+    2,
+    0,
+    4,
+    0,
+    0,
+    0
+  ],
+  "Is there a place where you can hear live music?": [
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Could you please add me to the waiting list?": [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Is there a shorter wait for a famous dish when I order it?": [
+    0,
+    0,
+    2,
+    1,
+    2,
+    0,
+    0,
+    0
+  ],
+  "Is there a better option somewhere else in this price range?": [
+    0,
+    0,
+    2,
+    1,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Do rates fluctuate during the holidays?": [
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Are there any coupons or promo codes available?": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Is there a restaurant near a park that you can recommend?": [
+    7,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is it sunny during the day?": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "During the day, how sunny is it?": [
+    0,
+    0,
+    2,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is this an area where I can feel secure?": [
+    0,
+    0,
+    3,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "What\u2019s the best place to eat by the airport?": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is it possible to adjust the amount of spice?": [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "What is the treatment like for visitors in this city?": [
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "How long should you expect to wait before being served?": [
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0
+  ],
+  "Which restaurants take pre-order for the reserved guests?": [
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is it possible to change the level of spice?": [
+    0,
+    1,
+    1,
+    2,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Which restaurants allow reserved visitors to place a pre-order?": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "What time of day is it the most sunny?": [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is the quality of the desserts comparable to the quality of the main courses?": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is there a vegan option available?": [
+    0,
+    1,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "When it comes to holidays, do the prices change?": [
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is this a neighborhood near the city center?": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Where should I dine near the airport?": [
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is it okay if I bring my pet?": [
+    0,
+    2,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is there a restaurant where live music is performed?": [
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Do they offer any coupons or promo codes?": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Is the tip automatically included to the bill?": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Is there a restaurant appropriate for a business meeting?": [
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Are the desserts on par with the main courses?": [
+    0,
+    1,
+    3,
+    2,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Is this a safe area?": [
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is the restaurant child friendly?": [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Is there a metro station in the immediate vicinity?": [
+    0,
+    1,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "When does the restaurant shut down for the night?": [
+    0,
+    2,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Is there a Michelin star restaurant available?": [
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Can you put me into the waitlist?": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is there a vegan alternative?": [
+    0,
+    0,
+    2,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Is there a no-show policy at the restaurant?": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+  ],
+  "What is the hottest brunch spot in town?": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "What is their most well-known dish?": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Is there any jazz club that serves cheap food?": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "How are tourists treated here?": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+  ],
+  "How is the traffic in the area?": [
+    0,
+    2,
+    3,
+    2,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Is there free WiFi available?": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is there any outside seating available?": [
+    0,
+    1,
+    0,
+    1,
+    2,
+    0,
+    0,
+    0
+  ],
+  "Is there a restaurant where a business meeting might be held?": [
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Can I get a better meal in this price somewhere else?": [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is there a yelp rating for the restaurant?": [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Is there a better lunch in this pricing range elsewhere?": [
+    0,
+    0,
+    3,
+    2,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Brunch or dinner: which is less expensive?": [
+    0,
+    0,
+    3,
+    1,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Is this a secure location?": [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is there a shorter wait for a popular dish if I order it?": [
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Are there any discounts or coupons available?": [
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Is the area served by a metro station?": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Is the food worth the price?": [
+    0,
+    0,
+    1,
+    2,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Do they have outdoor seating?": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Are the weekends more expensive than weekdays?": [
+    0,
+    0,
+    1,
+    2,
+    0,
+    0,
+    0,
+    0
+  ],
+  "How sunny is it during the day?": [
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Can I pay with American Express?": [
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Does the quality degrade during the busy hours?": [
+    0,
+    0,
+    2,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Are there gluten-free options?": [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Is it possible to find sweets that are suitable for diabetics?": [
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Which restaurants allow reserved guests to place an order in advance?": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Does the food quality match the price range?": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Is brunch cheaper than dinner?": [
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+  ],
+  "How are visitors handled in this area?": [
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0
+  ],
+  "Is a Michelin-starred restaurant nearby?": [
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is the restaurant using organic ingredients?": [
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0
+  ],
+  "Is the restaurant suitable for kids?": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Can you suggest a restaurant that is close to a park?": [
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "What is the restaurant's closing time?": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Is brunch less pricey than dinner?": [
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is there any parking that is free?": [
+    0,
+    0,
+    1,
+    2,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Does it remain open after midnight?": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is it possible for you to add me to the waiting list?": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "How long should you wait for food to be served?": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Is halal food available?": [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Is there free parking?": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is there any ice cream parlor in the neighborhood?": [
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is it possible for me to bring my pet?": [
+    0,
+    2,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Are there any diabetes-friendly desserts?": [
+    0,
+    0,
+    1,
+    2,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Can I bring my pet along?": [
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Do they have free wifi?": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Is it possible to make a reservation online?": [
+    0,
+    3,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0
+  ],
+  "What are local attractions like?": [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "What\u2019s the most hyped restaurant for brunch?": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is the gratuity added to the bill automatically?": [
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is there a nearby ice cream shop?": [
+    0,
+    1,
+    0,
+    2,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Can I pre-order my food online?": [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "What is the distance from the city center?": [
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "What is the greatest restaurant near the airport?": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Are weekend prices higher than weekday prices?": [
+    0,
+    0,
+    3,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "What is their most popular dish?": [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Are there any coupons or promotional codes available?": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Does the restaurant have a no-show policy?": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is it possible to get family platters?": [
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is this a secure place to be?": [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "How far is it from the city center?": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is parking available for free?": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Does the restaurant have a Yelp rating?": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "What other attractions are there in the neighborhood?": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is there a no-show policy in effect at the restaurant?": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+  ],
+  "What is the maximum amount of time you should wait for food?": [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is it possible to add me to the waiting list?": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Can you suggest a good restaurant near the airport?": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is this a kid-friendly restaurant?": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "In this pricing range, what kind of meals do most customers prefer?": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Is American Express an option for payment?": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Is it okay if I bring my pet with me?": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "Can you suggest a good restaurant for a business meeting?": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Which of their dishes is the most popular?": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "What is the most talked-about brunch spot?": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ]
+}

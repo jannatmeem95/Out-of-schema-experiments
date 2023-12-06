@@ -1,0 +1,188 @@
+{
+  "5": [
+    "At what time does it start?",
+    "At what time will the event start?",
+    "Do I need to come half an hour early before the event starts?",
+    "At what time does the game start?",
+    "What time is the event?"
+  ],
+  "26": [
+    "How long has the festival been running?"
+  ],
+  "32": [
+    "What items are not allowed to be brought in?"
+  ],
+  "39": [
+    "Are there any bars near the venue?",
+    "Is there a cafe inside the venue?",
+    "What is the venue called for the game?",
+    "What is the address of the venue?"
+  ],
+  "16": [
+    "Which acts have been opening for him?"
+  ],
+  "11": [
+    "How much will the tickets cost?",
+    "How much is the ticket price?",
+    "How much do the tickets cost?",
+    "How much do the tickets cost for the game?",
+    "What is the price of tickets?",
+    "How much are the tickets?"
+  ],
+  "7": [
+    "Can I bring my bags?"
+  ],
+  "34": [
+    "Do you know where did he last played?"
+  ],
+  "37": [
+    "Can you recommend anything else we might enjoy in the area?"
+  ],
+  "13": [
+    "Could you tell me how both teams are doing this season?",
+    "Could you tell me more about the game?"
+  ],
+  "8": [
+    "Could you search for other events in the area?",
+    "What other concerts are in that area?"
+  ],
+  "1": [
+    "Is there any discount on tickets for students?",
+    "Are there senior citizen discounts for tickets?",
+    "Is there a bundle discount on tickets?",
+    "Do I get discount for buying tickets early?",
+    "Is there a discount on bulk tickets?",
+    "Is there any discount on ticket booking?"
+  ],
+  "9": [
+    "Are there a lot of tickets still available?",
+    "Are the tickets changeable?",
+    "Are the tickets refundable?"
+  ],
+  "2": [
+    "Can you please provide the available list of timings?"
+  ],
+  "21": [
+    "Is parking available at the venue?",
+    "How much does parking cost at the venue?"
+  ],
+  "36": [
+    "Is there another game that night?"
+  ],
+  "42": [
+    "Is there merchandise at this event?"
+  ],
+  "43": [
+    "What program did you book the tickets through?"
+  ],
+  "22": [
+    "What are similar events to this one happening in April?",
+    "What other events are happening on the same day?",
+    "What events are happening there?"
+  ],
+  "6": [
+    "What genre of event is it?",
+    "What genre of music is it?"
+  ],
+  "29": [
+    "Where do they play next week?",
+    "When are they playing next?",
+    "What are the last three cities where they played?",
+    "Where else do they play in the next week?"
+  ],
+  "46": [
+    "How long until the two teams play again?"
+  ],
+  "18": [
+    "What time does the show start?",
+    "What time does that show start?"
+  ],
+  "10": [
+    "Has she ever won a grammy award?"
+  ],
+  "19": [
+    "What type of music will be played at the event?",
+    "What kind of music do they play?"
+  ],
+  "24": [
+    "What's the batting average of their best players?"
+  ],
+  "33": [
+    "What's the price on them?"
+  ],
+  "23": [
+    "What are the records between them?"
+  ],
+  "14": [
+    "Can you reserve a ticket for the next time the teams are playing?"
+  ],
+  "47": [
+    "When did the event sell out?"
+  ],
+  "3": [
+    "Where are they playing?",
+    "Where will they be playing at?"
+  ],
+  "27": [
+    "Where will the event be at?"
+  ],
+  "38": [
+    "What are some ideal locations for sightseeing in the city?"
+  ],
+  "25": [
+    "Will the event be in a stadium?",
+    "Would the event be at a stadium or a field?"
+  ],
+  "0": [
+    "Are there any sporting events happening?"
+  ],
+  "44": [
+    "Will there be a refund if the event gets cancelled?"
+  ],
+  "20": [
+    "Can I bring beer to the festival?",
+    "Do I have to be 18 to go to the festival?"
+  ],
+  "12": [
+    "Is there free parking at the plaza?",
+    "Does the event have free parking?"
+  ],
+  "45": [
+    "Can I bring food in?"
+  ],
+  "4": [
+    "Can you select your seating at this venue?",
+    "Are any refreshments available at the venue?"
+  ],
+  "30": [
+    "Can I bring my kids to the field?"
+  ],
+  "15": [
+    "Are minors allowed in?"
+  ],
+  "40": [
+    "Is the event standing or seated?"
+  ],
+  "31": [
+    "Are there any hotels nearby?"
+  ],
+  "41": [
+    "Who are they playing against?"
+  ],
+  "17": [
+    "When were they established?"
+  ],
+  "49": [
+    "How many people will be at the concert?",
+    "How many people will be at this event?"
+  ],
+  "28": [
+    "Can we attend tomorrow?"
+  ],
+  "35": [
+    "Can I bring a backpack to the venue?"
+  ],
+  "48": [
+    "How many seats are available?"
+  ]
+}

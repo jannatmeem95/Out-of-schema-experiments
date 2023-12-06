@@ -1,0 +1,119 @@
+P(s->Q) : 0.5
+P(Q->R) : 0.2
+Total simulated Conversations : 47300
+
+
+For picked 1 questions: 
+	Category: markov ,
+['Is there any halal cuisine available?']
+		 P(W->D):0.75: 
+			 PR(Q->R): 0----> Total Successful Convo: 1578
+			 PR(Q->R): 1----> Total Successful Convo: 1715
+Success rate: 0.08681875792141952
+
+	Category: frequency ,
+['Is it true that weekend prices are higher than weekday prices?']
+		 P(W->D):0.75: 
+			 PR(Q->R): 0----> Total Successful Convo: 1578
+			 PR(Q->R): 1----> Total Successful Convo: 1609
+Success rate: 0.01964512040557668
+
+	Category: random ,
+['Do they have free wifi?']
+		 P(W->D):0.75: 
+			 PR(Q->R): 0----> Total Successful Convo: 1578
+			 PR(Q->R): 1----> Total Successful Convo: 1588
+Success rate: 0.0063371356147021544
+
+
+For picked 5 questions: 
+	Category: markov ,
+['Is there any halal cuisine available?', "Is there any choice for a chef's special?", 'How are visitors handled in this area?', 'Is the restaurant using organic ingredients?', 'Is it possible to make a reservation online?']
+		 P(W->D):0.75: 
+			 PR(Q->R): 0----> Total Successful Convo: 1578
+			 PR(Q->R): 1----> Total Successful Convo: 2094
+Success rate: 0.3269961977186312
+
+	Category: frequency ,
+['Is it true that weekend prices are higher than weekday prices?', 'Is there a restaurant that offers live music?', 'Is there a bar in the area?', 'Do the pricing change over the holidays?', 'What kind of meals do you recommend in this price range?']
+		 P(W->D):0.75: 
+			 PR(Q->R): 0----> Total Successful Convo: 1578
+			 PR(Q->R): 1----> Total Successful Convo: 1775
+Success rate: 0.12484157160963244
+
+	Category: random ,
+['Do they have free wifi?', 'Is the quality of the service affected during peak hours?', 'Is it possible to order gluten-free food?', 'Are there any gluten-free options?', 'Is this a kid-friendly restaurant?']
+		 P(W->D):0.75: 
+			 PR(Q->R): 0----> Total Successful Convo: 1578
+			 PR(Q->R): 1----> Total Successful Convo: 1699
+Success rate: 0.07667934093789606
+
+
+For picked 10 questions: 
+	Category: markov ,
+['Is there any halal cuisine available?', "Is there any choice for a chef's special?", 'How are visitors handled in this area?', 'Is the restaurant using organic ingredients?', 'Is it possible to make a reservation online?', 'Is the quality affected during peak hours?', 'Brunch or dinner: which is less expensive?', 'Is there any outside seating available?', 'Is brunch more affordable than dinner?', 'Do they offer any coupons or promo codes?']
+		 P(W->D):0.75: 
+			 PR(Q->R): 0----> Total Successful Convo: 1578
+			 PR(Q->R): 1----> Total Successful Convo: 2405
+Success rate: 0.5240811153358682
+
+	Category: frequency ,
+['Is it true that weekend prices are higher than weekday prices?', 'Is there a restaurant that offers live music?', 'Is there a bar in the area?', 'Do the pricing change over the holidays?', 'What kind of meals do you recommend in this price range?', 'In this pricing range, what kind of meals do customers normally prefer?', 'Is there a restaurant near a park that you can recommend?', 'Are the desserts on par with the main courses?', 'Is there a better lunch in this pricing range elsewhere?', 'Is there any halal cuisine available?']
+		 P(W->D):0.75: 
+			 PR(Q->R): 0----> Total Successful Convo: 1578
+			 PR(Q->R): 1----> Total Successful Convo: 2070
+Success rate: 0.311787072243346
+
+	Category: random ,
+['Do they have free wifi?', 'Is the quality of the service affected during peak hours?', 'Is it possible to order gluten-free food?', 'Are there any gluten-free options?', 'Is this a kid-friendly restaurant?', 'Are there any coupons or promotional codes available?', 'Is the wait time for serving less if I order a popular dish?', 'Is the tip included in the bill?', 'What is their most well-known dish?', 'Is it possible to get family platters?']
+		 P(W->D):0.75: 
+			 PR(Q->R): 0----> Total Successful Convo: 1578
+			 PR(Q->R): 1----> Total Successful Convo: 1820
+Success rate: 0.15335868187579213
+
+
+For picked 15 questions: 
+	Category: markov ,
+['Is there any halal cuisine available?', "Is there any choice for a chef's special?", 'How are visitors handled in this area?', 'Is the restaurant using organic ingredients?', 'Is it possible to make a reservation online?', 'Is the quality affected during peak hours?', 'Brunch or dinner: which is less expensive?', 'Is there any outside seating available?', 'Is brunch more affordable than dinner?', 'Do they offer any coupons or promo codes?', 'Is it possible for me to bring my pet?', 'Is there any halal food?', 'Can I customize the spice level?', 'Is the quality of the service affected during peak hours?', 'Is there a vegan alternative?']
+		 P(W->D):0.75: 
+			 PR(Q->R): 0----> Total Successful Convo: 1578
+			 PR(Q->R): 1----> Total Successful Convo: 2693
+Success rate: 0.7065906210392903
+
+	Category: frequency ,
+['Is it true that weekend prices are higher than weekday prices?', 'Is there a restaurant that offers live music?', 'Is there a bar in the area?', 'Do the pricing change over the holidays?', 'What kind of meals do you recommend in this price range?', 'In this pricing range, what kind of meals do customers normally prefer?', 'Is there a restaurant near a park that you can recommend?', 'Are the desserts on par with the main courses?', 'Is there a better lunch in this pricing range elsewhere?', 'Is there any halal cuisine available?', 'Do prices go up around the holidays?', 'Is there an ice cream shop in the vicinity?', 'Is there a Michelin star restaurant available?', 'When it comes to holidays, do the prices change?', 'Are weekend prices higher than weekday prices?']
+		 P(W->D):0.75: 
+			 PR(Q->R): 0----> Total Successful Convo: 1578
+			 PR(Q->R): 1----> Total Successful Convo: 2262
+Success rate: 0.43346007604562736
+
+	Category: random ,
+['Do they have free wifi?', 'Is the quality of the service affected during peak hours?', 'Is it possible to order gluten-free food?', 'Are there any gluten-free options?', 'Is this a kid-friendly restaurant?', 'Are there any coupons or promotional codes available?', 'Is the wait time for serving less if I order a popular dish?', 'Is the tip included in the bill?', 'What is their most well-known dish?', 'Is it possible to get family platters?', 'How are visitors handled in this city?', 'Does the food quality match the price range?', "Is there any chef's special option available?", 'Is there free WiFi available?', 'How is the traffic in the area?']
+		 P(W->D):0.75: 
+			 PR(Q->R): 0----> Total Successful Convo: 1578
+			 PR(Q->R): 1----> Total Successful Convo: 1914
+Success rate: 0.21292775665399238
+
+
+For picked 20 questions: 
+	Category: markov ,
+['Is there any halal cuisine available?', "Is there any choice for a chef's special?", 'How are visitors handled in this area?', 'Is the restaurant using organic ingredients?', 'Is it possible to make a reservation online?', 'Is the quality affected during peak hours?', 'Brunch or dinner: which is less expensive?', 'Is there any outside seating available?', 'Is brunch more affordable than dinner?', 'Do they offer any coupons or promo codes?', 'Is it possible for me to bring my pet?', 'Is there any halal food?', 'Can I customize the spice level?', 'Is the quality of the service affected during peak hours?', 'Is there a vegan alternative?', 'Is brunch cheaper than dinner?', 'Is the restaurant child friendly?', 'In this pricing range, what kind of meals do most customers prefer?', 'Are there any discounts or coupons available?', 'What kind of meals do you recommend in this price range?']
+		 P(W->D):0.75: 
+			 PR(Q->R): 0----> Total Successful Convo: 1578
+			 PR(Q->R): 1----> Total Successful Convo: 2991
+Success rate: 0.8954372623574145
+
+	Category: frequency ,
+['Is it true that weekend prices are higher than weekday prices?', 'Is there a restaurant that offers live music?', 'Is there a bar in the area?', 'Do the pricing change over the holidays?', 'What kind of meals do you recommend in this price range?', 'In this pricing range, what kind of meals do customers normally prefer?', 'Is there a restaurant near a park that you can recommend?', 'Are the desserts on par with the main courses?', 'Is there a better lunch in this pricing range elsewhere?', 'Is there any halal cuisine available?', 'Do prices go up around the holidays?', 'Is there an ice cream shop in the vicinity?', 'Is there a Michelin star restaurant available?', 'When it comes to holidays, do the prices change?', 'Are weekend prices higher than weekday prices?', 'Brunch or dinner: which is less expensive?', 'How is the traffic in the area?', 'Is it possible to make a reservation online?', 'Is the quality affected during peak hours?', 'Is brunch more affordable than dinner?']
+		 P(W->D):0.75: 
+			 PR(Q->R): 0----> Total Successful Convo: 1578
+			 PR(Q->R): 1----> Total Successful Convo: 2573
+Success rate: 0.6305449936628644
+
+	Category: random ,
+['Do they have free wifi?', 'Is the quality of the service affected during peak hours?', 'Is it possible to order gluten-free food?', 'Are there any gluten-free options?', 'Is this a kid-friendly restaurant?', 'Are there any coupons or promotional codes available?', 'Is the wait time for serving less if I order a popular dish?', 'Is the tip included in the bill?', 'What is their most well-known dish?', 'Is it possible to get family platters?', 'How are visitors handled in this city?', 'Does the food quality match the price range?', "Is there any chef's special option available?", 'Is there free WiFi available?', 'How is the traffic in the area?', 'Is there any ice cream parlor in the neighborhood?', 'Can you recommend a restaurant near a park?', 'Can you suggest any family platters?', 'Is there a no-show policy at the restaurant?', 'What’s the best place to eat by the airport?']
+		 P(W->D):0.75: 
+			 PR(Q->R): 0----> Total Successful Convo: 1578
+			 PR(Q->R): 1----> Total Successful Convo: 2024
+Success rate: 0.2826362484157161
+
