@@ -121,8 +121,10 @@ def readFile(model_name, dirname):
             
             print(name)
             # return
-            # truth, correct_pred = checkAlexa(data)
-            truth, correct_pred = check(data)
+            if dirname == "alexaData":
+                truth, correct_pred = checkAlexa(data)
+            else:
+                truth, correct_pred = check(data)
             for k, v in data.items():
                 for turnID, instance in v.items():
                     # try:
