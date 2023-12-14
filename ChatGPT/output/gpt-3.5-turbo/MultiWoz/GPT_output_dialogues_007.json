@@ -1,0 +1,951 @@
+{
+    "182": {
+        "0": {
+            "utterance": "I'm trying to find an Irish restaurant that can provide me with some unique fine dining. I expect this to be expensive, can you give me some options?",
+            "gold out": {
+                "restaurant-food": [
+                    "irish"
+                ],
+                "restaurant-pricerange": [
+                    "expensive"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-food\": Irish, \"restaurant-pricerange\": expensive]\n<Answer2>: No.\n<Answer3>: No."
+        },
+        "2": {
+            "utterance": "Do the pricing change over the holidays?",
+            "gold out": "<Answer3>:Yes",
+            "GPT_Out": "<Answer1>: No.<br>\n<Answer2>: No.<br>\n<Answer3>: No."
+        }
+    },
+    "183": {
+        "0": {
+            "utterance": "I'm looking for a place to eat, maybe Austrian food.",
+            "gold out": {
+                "restaurant-food": [
+                    "austrian"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-food\": Austrian]\n<Answer2>:  No.\n<Answer3>:  No."
+        },
+        "2": {
+            "utterance": "Hmm I guess I could try british food instead",
+            "gold out": {
+                "restaurant-food": [
+                    "british"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-food\": austrian]\n<Answer2>:  No.\n<Answer3>:  No."
+        },
+        "4": {
+            "utterance": "Moderate price range would be great.",
+            "gold out": {
+                "restaurant-food": [
+                    "british"
+                ],
+                "restaurant-pricerange": [
+                    "moderate"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-food\": british, \"restaurant-pricerange\": moderate]\n<Answer2>: No.\n<Answer3>: No."
+        },
+        "6": {
+            "utterance": "No, the area does not matter. I need a table for 5 people at 12:15 on Friday. If that time doesn't work then 11:15. I also need the reference number.",
+            "gold out": {
+                "restaurant-food": [
+                    "british"
+                ],
+                "restaurant-pricerange": [
+                    "moderate"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-food\": Austrian]\n<Answer2>: No.\n<Answer3>: No."
+        },
+        "8": {
+            "utterance": "Do rates fluctuate during the holidays?",
+            "gold out": "<Answer3>:Yes",
+            "GPT_Out": "<Answer1>: No.\n<Answer2>: Yes. User has asked a question about the following slots: [\"restaurant-pricerange\"]\n<Answer3>:Yes."
+        }
+    },
+    "184": {
+        "0": {
+            "utterance": "i am looking for a place to dine. The restaurant should be in the moderate price range and should serve international food.",
+            "gold out": {
+                "restaurant-food": [
+                    "international"
+                ],
+                "restaurant-pricerange": [
+                    "moderate"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-pricerange\": moderate, \"restaurant-food\": international]\n    <Answer2>:  No.\n    <Answer3>:  No."
+        },
+        "2": {
+            "utterance": "Are they located in the cetre?",
+            "gold out": {
+                "restaurant-area": [
+                    "centre"
+                ],
+                "restaurant-food": [
+                    "international"
+                ],
+                "restaurant-name": [
+                    "bloomsbury restaurant"
+                ],
+                "restaurant-pricerange": [
+                    "moderate"
+                ]
+            },
+            "GPT_Out": "<Answer1>: No.\n<Answer2>: Yes. User has asked a question about the following slots: [\"restaurant-area\"]\n<Answer3>: No."
+        },
+        "4": {
+            "utterance": "Is there any chef's special option available?",
+            "gold out": "<Answer3>:Yes",
+            "GPT_Out": "<Answer1>: No. \n<Answer2>: Yes. User has asked a question about the following slots: [\"restaurant-area\"].\n<Answer3>: No."
+        }
+    },
+    "185": {
+        "0": {
+            "utterance": "I am looking for Basque food, in the Centre of town.",
+            "gold out": {
+                "restaurant-area": [
+                    "centre"
+                ],
+                "restaurant-food": [
+                    "basque"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-food\": Basque, \"restaurant-area\": Centre]"
+        },
+        "2": {
+            "utterance": "Any restaurants in the centre area with an expensive price range?",
+            "gold out": {
+                "restaurant-area": [
+                    "centre"
+                ],
+                "restaurant-pricerange": [
+                    "expensive"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-food\": Basque, \"restaurant-area\": Centre, \"restaurant-pricerange\": expensive]\n<Answer2>:  Yes. User has asked a question about the following slots: [\"restaurant-area\", \"restaurant-pricerange\"]\n<Answer3>:  No."
+        },
+        "4": {
+            "utterance": "In this pricing range, what kind of meals do customers normally prefer?",
+            "gold out": "<Answer3>:Yes",
+            "GPT_Out": "<Answer1>: No.\n<Answer2>: Yes. User has asked a question about the following slots: [\"restaurant-food\", \"restaurant-area\", \"restaurant-pricerange\"]\n<Answer3>: No."
+        }
+    },
+    "186": {
+        "0": {
+            "utterance": "Can you help me find and expensive Thai restaurant?",
+            "gold out": {
+                "restaurant-food": [
+                    "thai"
+                ],
+                "restaurant-pricerange": [
+                    "expensive"
+                ]
+            },
+            "GPT_Out": "    <Answer1>: Yes. User has provided the following slot values: [\"restaurant-pricerange\": expensive, \"restaurant-food\": Thai]\n<Answer2>:  No.\n<Answer3>:  No."
+        },
+        "2": {
+            "utterance": "Is there any choice for a chef's special?",
+            "gold out": "<Answer3>:Yes",
+            "GPT_Out": "<Answer1>: No.\n<Answer2>: Yes. User has asked a question about the following slots: [\"restaurant-food\"]\n<Answer3>: No."
+        }
+    },
+    "187": {
+        "0": {
+            "utterance": "Where should I dine near the airport?",
+            "gold out": "<Answer3>:Yes",
+            "GPT_Out": "<Answer1>: No.\n    <Answer2>:  No.\n    <Answer3>:Yes."
+        }
+    },
+    "188": {
+        "0": {
+            "utterance": "I'm on a tight budget so I need to find a cheap restaurant that serves chinese food",
+            "gold out": {
+                "restaurant-food": [
+                    "chinese"
+                ],
+                "restaurant-pricerange": [
+                    "cheap"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-pricerange\": cheap, \"restaurant-food\": chinese]\n    <Answer2>:  No.\n    <Answer3>:  No."
+        },
+        "2": {
+            "utterance": "It doesn't matter.",
+            "gold out": {
+                "restaurant-area": [
+                    "dontcare"
+                ],
+                "restaurant-food": [
+                    "chinese"
+                ],
+                "restaurant-pricerange": [
+                    "cheap"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-pricerange\": cheap, \"restaurant-food\": Chinese]\n<Answer2>: No.\n<Answer3>: No."
+        },
+        "4": {
+            "utterance": "Which type of food people usually prefer in this price range?",
+            "gold out": "<Answer3>:Yes",
+            "GPT_Out": "<Answer1>: No.\n<Answer2>: No.\n<Answer3>:Yes."
+        }
+    },
+    "189": {
+        "0": {
+            "utterance": "I need to get some information on a restaurant named eraina",
+            "gold out": {
+                "restaurant-name": [
+                    "eraina"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-name\": eraina]\n<Answer2>:  No.\n<Answer3>:  No."
+        },
+        "2": {
+            "utterance": "Yes for 8 people at 12:30 on Monday please",
+            "gold out": {
+                "restaurant-bookday": [
+                    "monday"
+                ],
+                "restaurant-bookpeople": [
+                    "8"
+                ],
+                "restaurant-booktime": [
+                    "12:30"
+                ],
+                "restaurant-name": [
+                    "eraina"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-name\": eraina, \"restaurant-bookpeople\": 8, \"restaurant-booktime\": 12:30, \"restaurant-bookday\": Monday]\n    <Answer2>:  No.\n    <Answer3>:  No."
+        },
+        "4": {
+            "utterance": "Is there any outside seating available?",
+            "gold out": "<Answer3>:Yes",
+            "GPT_Out": "<Answer1>: No.\n<Answer2>: Yes. User has asked a question about the following slots: [\"restaurant-name\"]\n<Answer3>: No."
+        }
+    },
+    "190": {
+        "0": {
+            "utterance": "Is there a jazz club that serves affordable fare?",
+            "gold out": "<Answer3>:Yes",
+            "GPT_Out": "<Answer1>: No\n<Answer2>: No\n<Answer3>:Yes"
+        }
+    },
+    "191": {
+        "0": {
+            "utterance": "I'm wanting Indian food, is there a restaurant that serves that near the centre of town?",
+            "gold out": {
+                "restaurant-area": [
+                    "centre"
+                ],
+                "restaurant-food": [
+                    "indian"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-food\": Indian, \"restaurant-area\": centre]\n<Answer2>: No.\n<Answer3>: No."
+        },
+        "2": {
+            "utterance": "Is there a bar in the area?",
+            "gold out": "<Answer3>:Yes",
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-food\": Indian, \"restaurant-area\": centre]\n<Answer2>:  No.\n<Answer3>:Yes."
+        }
+    },
+    "192": {
+        "0": {
+            "utterance": "Hello there. Any suggestions on a good seafood restaurant located in the centre of town?",
+            "gold out": {
+                "restaurant-area": [
+                    "centre"
+                ],
+                "restaurant-food": [
+                    "seafood"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-area\": centre, \"restaurant-food\": seafood]\n<Answer2>:  No.\n<Answer3>:  No."
+        },
+        "2": {
+            "utterance": "Is there a yelp rating for the restaurant?",
+            "gold out": "<Answer3>:Yes",
+            "GPT_Out": "<Answer1>: No.\n<Answer2>: Yes. User has asked a question about the following slots: [\"restaurant-name\"]\n<Answer3>: No."
+        }
+    },
+    "193": {
+        "0": {
+            "utterance": "I am looking for a cheap restaurant in the west part of the city please.",
+            "gold out": {
+                "restaurant-area": [
+                    "west"
+                ],
+                "restaurant-pricerange": [
+                    "cheap"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-pricerange\": cheap, \"restaurant-area\": west]\n<Answer2>:  No.\n<Answer3>:  No."
+        },
+        "2": {
+            "utterance": "Is there a better lunch in this pricing range elsewhere?",
+            "gold out": "<Answer3>:Yes",
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-pricerange\": cheap, \"restaurant-area\": west]\n<Answer2>:  No.\n<Answer3>:Yes."
+        }
+    },
+    "194": {
+        "0": {
+            "utterance": "I need some cheap Caribbean eats somewhere.",
+            "gold out": {
+                "restaurant-food": [
+                    "caribbean"
+                ],
+                "restaurant-pricerange": [
+                    "cheap"
+                ]
+            },
+            "GPT_Out": "    <Answer1>: Yes. User has provided the following slot values: [\"restaurant-pricerange\": cheap, \"restaurant-food\": Caribbean]\n    <Answer2>:  No.\n    <Answer3>:  No."
+        },
+        "2": {
+            "utterance": "I would like the restaurant to be in the centre.",
+            "gold out": {
+                "restaurant-area": [
+                    "centre"
+                ],
+                "restaurant-pricerange": [
+                    "cheap"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-pricerange\": cheap, \"restaurant-area\": centre]\n\n<Answer2>:  No.\n\n<Answer3>:  No."
+        },
+        "4": {
+            "utterance": "Brunch or dinner: which is less expensive?",
+            "gold out": "<Answer3>:Yes",
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-area\": centre]\n<Answer2>:  No.\n<Answer3>:  No."
+        }
+    },
+    "195": {
+        "0": {
+            "utterance": "I am looking for a restaurant in the centre that serves modern European food.",
+            "gold out": {
+                "restaurant-area": [
+                    "centre"
+                ],
+                "restaurant-food": [
+                    "modern european"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-area\": centre, \"restaurant-food\": modern European]\n<Answer2>:  No.\n<Answer3>:  No."
+        },
+        "2": {
+            "utterance": "I would like one in the expensive price range please.",
+            "gold out": {
+                "restaurant-area": [
+                    "centre"
+                ],
+                "restaurant-food": [
+                    "modern european"
+                ],
+                "restaurant-pricerange": [
+                    "expensive"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-area\": centre, \"restaurant-food\": modern European, \"restaurant-pricerange\": expensive]\n\n<Answer2>: No.\n\n<Answer3>: No."
+        },
+        "4": {
+            "utterance": "Is brunch more affordable than dinner?",
+            "gold out": "<Answer3>:Yes",
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-area\": center, \"restaurant-food\": modern european, \"restaurant-pricerange\": expensive]\n<Answer2>:  No.\n<Answer3>:  No."
+        }
+    },
+    "196": {
+        "0": {
+            "utterance": "Is there a restaurant near a park that you can recommend?",
+            "gold out": "<Answer3>:Yes",
+            "GPT_Out": "<Answer1>: No.\n    <Answer2>:  No.\n    <Answer3>:Yes."
+        }
+    },
+    "197": {
+        "0": {
+            "utterance": "Can you find me a restaurant with a moderate price range?",
+            "gold out": {
+                "restaurant-pricerange": [
+                    "moderate"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-pricerange\": moderate]\n<Answer2>:  No.\n<Answer3>:  No."
+        },
+        "2": {
+            "utterance": "Do prices go up around the holidays?",
+            "gold out": "<Answer3>:Yes",
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-pricerange\": moderate]\n<Answer2>: No.\n<Answer3>: No."
+        }
+    },
+    "198": {
+        "0": {
+            "utterance": "I'm looking for a restaurant, somewhere not too expensive, but not bottom of the barrel either, something in the mid range.",
+            "gold out": {
+                "restaurant-pricerange": [
+                    "moderate"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-pricerange\": mid range]\n<Answer2>:  No.\n<Answer3>:  No."
+        },
+        "2": {
+            "utterance": "I would like them to serve barbecue food.",
+            "gold out": {
+                "restaurant-food": [
+                    "barbecue",
+                    "barbeque"
+                ],
+                "restaurant-pricerange": [
+                    "moderate"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-pricerange\": mid range, \"restaurant-food\": barbecue]\n<Answer2>:  No.\n<Answer3>:  No."
+        },
+        "4": {
+            "utterance": "how about gastropub food?",
+            "gold out": {
+                "restaurant-food": [
+                    "gastropub"
+                ],
+                "restaurant-pricerange": [
+                    "moderate"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-pricerange\": mid range, \"restaurant-food\": barbecue]\n<Answer2>:  No.\n<Answer3>:  No."
+        },
+        "6": {
+            "utterance": "Is it possible to sit outside?",
+            "gold out": "<Answer3>:Yes",
+            "GPT_Out": "<Answer1>: No.\n<Answer2>: No.\n<Answer3>:Yes."
+        }
+    },
+    "199": {
+        "0": {
+            "utterance": "I am looking for a restaurant. The restaurant should be in the moderate price range and should be in the centre",
+            "gold out": {
+                "restaurant-area": [
+                    "centre"
+                ],
+                "restaurant-pricerange": [
+                    "moderate"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-pricerange\": moderate, \"restaurant-area\": center]\n<Answer2>:  No.\n<Answer3>:  No."
+        },
+        "2": {
+            "utterance": "I am looking for a restaurant. The restaurant should be in the moderate price range and should be in the centre. The restaurant should serve modern european food",
+            "gold out": {
+                "restaurant-area": [
+                    "centre"
+                ],
+                "restaurant-food": [
+                    "modern european"
+                ],
+                "restaurant-pricerange": [
+                    "moderate"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-pricerange\": moderate, \"restaurant-area\": centre, \"restaurant-food\": modern european]\n<Answer2>:  No.\n<Answer3>:  No."
+        },
+        "4": {
+            "utterance": "Is this a secure location?",
+            "gold out": "<Answer3>:Yes",
+            "GPT_Out": "<Answer1>: No.\n<Answer2>: No.\n<Answer3>:Yes."
+        }
+    },
+    "200": {
+        "0": {
+            "utterance": "What\u2019s the most hyped restaurant for brunch?",
+            "gold out": "<Answer3>:Yes",
+            "GPT_Out": "<Answer1>: No."
+        }
+    },
+    "201": {
+        "0": {
+            "utterance": "Hello, please find me a place to dine in the north area that serves polish food.",
+            "gold out": {
+                "restaurant-area": [
+                    "north"
+                ],
+                "restaurant-food": [
+                    "polish"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-area\": north, \"restaurant-food\": polish]\n<Answer2>:  No.\n<Answer3>:  No."
+        },
+        "2": {
+            "utterance": "Yes please. I would just need it to be in the cheap price range.",
+            "gold out": {
+                "restaurant-area": [
+                    "dontcare"
+                ],
+                "restaurant-food": [
+                    "polish"
+                ],
+                "restaurant-pricerange": [
+                    "cheap"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-area\": north, \"restaurant-food\": polish, \"restaurant-pricerange\": cheap]\n<Answer2>:  No.\n<Answer3>:  No."
+        },
+        "4": {
+            "utterance": "Yes, let's try italian food.",
+            "gold out": {
+                "restaurant-area": [
+                    "north"
+                ],
+                "restaurant-food": [
+                    "italian"
+                ],
+                "restaurant-pricerange": [
+                    "cheap"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-area\": north, \"restaurant-food\": polish]\n<Answer2>:  No.\n<Answer3>:  No."
+        },
+        "6": {
+            "utterance": "Is there a shorter wait for a popular dish if I order it?",
+            "gold out": "<Answer3>:Yes",
+            "GPT_Out": "<Answer1>: No.\n<Answer2>: Yes. User has asked a question about the following slots: [\"restaurant-pricerange\", \"restaurant-food\"]\n<Answer3>: No."
+        }
+    },
+    "202": {
+        "0": {
+            "utterance": "Is brunch cheaper than dinner?",
+            "gold out": "<Answer3>:Yes",
+            "GPT_Out": "<Answer1>: No.\n<Answer2>:  No.\n<Answer3>:Yes."
+        }
+    },
+    "203": {
+        "0": {
+            "utterance": "I am looking for a restaurant. The restaurant should be in the centre and should serve persian food",
+            "gold out": {
+                "restaurant-area": [
+                    "centre"
+                ],
+                "restaurant-food": [
+                    "persian"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-area\": centre, \"restaurant-food\": persian]\n<Answer2>:  No.\n<Answer3>:  No."
+        },
+        "2": {
+            "utterance": "Yes, I am looking for a moderate price range.",
+            "gold out": {
+                "restaurant-area": [
+                    "centre"
+                ],
+                "restaurant-food": [
+                    "persian"
+                ],
+                "restaurant-pricerange": [
+                    "moderate"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-area\": centre, \"restaurant-food\": persian, \"restaurant-pricerange\": moderate]\n    <Answer2>:  No.\n    <Answer3>:  No."
+        },
+        "4": {
+            "utterance": "What about modern european foods?",
+            "gold out": {
+                "restaurant-area": [
+                    "centre"
+                ],
+                "restaurant-food": [
+                    "modern european"
+                ],
+                "restaurant-pricerange": [
+                    "moderate"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-area\": centre, \"restaurant-food\": persian]\n<Answer2>:  No.\n<Answer3>:  No."
+        },
+        "6": {
+            "utterance": "Is it possible to alter the level of spice?",
+            "gold out": "<Answer3>:Yes",
+            "GPT_Out": "<Answer1>: No.\n<Answer2>:  No.\n<Answer3>:Yes."
+        }
+    },
+    "204": {
+        "0": {
+            "utterance": "I am looking for a place to dine. The restaurant should be in the west and should be in the cheap price range",
+            "gold out": {
+                "restaurant-area": [
+                    "west"
+                ],
+                "restaurant-pricerange": [
+                    "cheap"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-area\": west, \"restaurant-pricerange\": cheap]\n<Answer2>:  No.\n<Answer3>:  No."
+        },
+        "2": {
+            "utterance": "Is there a bar in the area?",
+            "gold out": "<Answer3>:Yes",
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-area\": west, \"restaurant-pricerange\": cheap]\n<Answer2>:  No.\n<Answer3>:Yes."
+        }
+    },
+    "205": {
+        "0": {
+            "utterance": "I am looking for a restaurant called the Slug and Lettuce.",
+            "gold out": {
+                "restaurant-name": [
+                    "slug and lettuce"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-name\": \"the Slug and Lettuce\"]"
+        },
+        "2": {
+            "utterance": "Are there any discounts or coupons available?",
+            "gold out": "<Answer3>:Yes",
+            "GPT_Out": "<Answer1>: No.\n<Answer2>: No.\n<Answer3>:Yes."
+        }
+    },
+    "206": {
+        "0": {
+            "utterance": "Is a Michelin-starred restaurant nearby?",
+            "gold out": "<Answer3>:Yes",
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-pricerange\": Michelin-starred]\n<Answer2>:  No.\n<Answer3>:  No."
+        }
+    },
+    "207": {
+        "0": {
+            "utterance": "I'd like to find a restaurant. The restaurant should be expensive in price, only the finest in food. Also, I'd like it if the restaurant was in the centre of town.",
+            "gold out": {
+                "restaurant-area": [
+                    "centre"
+                ],
+                "restaurant-pricerange": [
+                    "expensive"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-pricerange\": expensive, \"restaurant-food\": finest, \"restaurant-area\": center]\n<Answer2>:  No.\n<Answer3>:  No."
+        },
+        "2": {
+            "utterance": "Is it real that weekends are more costly than weekdays?",
+            "gold out": "<Answer3>:Yes",
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-pricerange\": expensive, \"restaurant-food\": finest, \"restaurant-area\": centre]\n<Answer2>:  No.\n<Answer3>:Yes."
+        }
+    },
+    "208": {
+        "0": {
+            "utterance": "Yes, I'd like some information on finding a particular restaurant. The restaurant should serve a variety of Jamaican food and ideally I'd like it to be located in the south please.",
+            "gold out": {
+                "restaurant-area": [
+                    "south"
+                ],
+                "restaurant-food": [
+                    "jamaican"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-food\": Jamaican, \"restaurant-area\": south]\n<Answer2>:  No.\n<Answer3>:  No."
+        },
+        "2": {
+            "utterance": "No I am looking for that specifically.",
+            "gold out": {
+                "restaurant-area": [
+                    "south"
+                ],
+                "restaurant-food": [
+                    "jamaican"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-food\": Jamaican, \"restaurant-area\": south]\n\n<Answer2>:  No.\n\n<Answer3>:  No."
+        },
+        "4": {
+            "utterance": "How about one that serves italian food?",
+            "gold out": {
+                "restaurant-area": [
+                    "south"
+                ],
+                "restaurant-food": [
+                    "italian"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-food\": Italian] \n<Answer2>:  No.\n<Answer3>:  No."
+        },
+        "6": {
+            "utterance": "I'd like to book at the expensive place. There will be 8 of us, and we'd like to eat at 15:00 on Monday.",
+            "gold out": {
+                "restaurant-area": [
+                    "south"
+                ],
+                "restaurant-bookday": [
+                    "monday"
+                ],
+                "restaurant-bookpeople": [
+                    "8"
+                ],
+                "restaurant-booktime": [
+                    "15:00"
+                ],
+                "restaurant-food": [
+                    "italian"
+                ],
+                "restaurant-pricerange": [
+                    "expensive"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-food\": Jamaican, \"restaurant-area\": south, \"restaurant-food\": italian, \"restaurant-bookday\": Monday, \"restaurant-booktime\": 15:00, \"restaurant-bookpeople\": 8]\n\n<Answer2>: No.\n\n<Answer3>: No."
+        },
+        "8": {
+            "utterance": "Is the area served by a metro station?",
+            "gold out": "<Answer3>:Yes",
+            "GPT_Out": "<Answer1>: No.\n    <Answer2>:  No.\n    <Answer3>:Yes."
+        }
+    },
+    "209": {
+        "0": {
+            "utterance": "Which restaurants take pre-order for the reserved guests?",
+            "gold out": "<Answer3>:Yes",
+            "GPT_Out": "<Answer1>: No.\n<Answer2>: Yes. User has asked a question about the following slots: [\"restaurant-bookpeople\"]\n<Answer3>: No."
+        }
+    },
+    "210": {
+        "0": {
+            "utterance": "Are there cheap places to eat in the centre part of town?",
+            "gold out": {
+                "restaurant-area": [
+                    "centre"
+                ],
+                "restaurant-pricerange": [
+                    "cheap"
+                ]
+            },
+            "GPT_Out": "<Answer1>: No.\n    <Answer2>:  Yes. User has asked a question about the following slots: [\"restaurant-pricerange\", \"restaurant-area\"]\n    <Answer3>:  No."
+        },
+        "2": {
+            "utterance": "Is the food worth the price?",
+            "gold out": "<Answer3>:Yes",
+            "GPT_Out": "<Answer1>: No.\n<Answer2>: Yes. User has asked a question about the following slots: [\"restaurant-food\"]\n<Answer3>: No."
+        }
+    },
+    "211": {
+        "0": {
+            "utterance": "Hi, I am looking for a north Indian restaurant in the town centre?",
+            "gold out": {
+                "restaurant-area": [
+                    "centre"
+                ],
+                "restaurant-food": [
+                    "north indian"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-area\": town centre, \"restaurant-food\": north Indian]\n<Answer2>:  No.\n<Answer3>:  No."
+        },
+        "2": {
+            "utterance": "One in the moderate price range would be good. Can you find one for me?",
+            "gold out": {
+                "restaurant-area": [
+                    "centre"
+                ],
+                "restaurant-food": [
+                    "north indian"
+                ],
+                "restaurant-pricerange": [
+                    "moderate"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-area\": town centre, \"restaurant-food\": north Indian, \"restaurant-pricerange\": moderate]\n<Answer2>:  No.\n<Answer3>:  No."
+        },
+        "4": {
+            "utterance": "No, in that case I think I would prefer to try a place that serves international food.",
+            "gold out": {
+                "restaurant-area": [
+                    "centre"
+                ],
+                "restaurant-food": [
+                    "international"
+                ],
+                "restaurant-pricerange": [
+                    "moderate"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-food\": \"north Indian\"]\n<Answer2>: No.\n<Answer3>:Yes."
+        },
+        "6": {
+            "utterance": "Okay, how about The Varsity .. I'd like a table for four on Thursday at 12:30.",
+            "gold out": {
+                "restaurant-area": [
+                    "centre"
+                ],
+                "restaurant-bookday": [
+                    "thursday"
+                ],
+                "restaurant-bookpeople": [
+                    "4"
+                ],
+                "restaurant-booktime": [
+                    "12:30"
+                ],
+                "restaurant-food": [
+                    "international"
+                ],
+                "restaurant-name": [
+                    "the varsity restaurant"
+                ],
+                "restaurant-pricerange": [
+                    "moderate"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-food\": north Indian, \"restaurant-area\": town centre, \"restaurant-pricerange\": moderate, \"restaurant-bookpeople\": 4, \"restaurant-bookday\": Thursday, \"restaurant-booktime\": 12:30]\n<Answer2>: Yes. User has asked a question about the following slots: [\"restaurant-pricerange\"]\n<Answer3>: No."
+        },
+        "8": {
+            "utterance": "Do they have outdoor seating?",
+            "gold out": "<Answer3>:Yes",
+            "GPT_Out": "<Answer1>: No."
+        }
+    },
+    "212": {
+        "0": {
+            "utterance": "I need an expensive restaurant.",
+            "gold out": {
+                "restaurant-pricerange": [
+                    "expensive"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-pricerange\": expensive]"
+        },
+        "2": {
+            "utterance": "I would like Chinese food in the centre please.",
+            "gold out": {
+                "restaurant-area": [
+                    "centre"
+                ],
+                "restaurant-food": [
+                    "chinese"
+                ],
+                "restaurant-pricerange": [
+                    "expensive"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-pricerange\": expensive, \"restaurant-food\": Chinese, \"restaurant-area\": centre]\n<Answer2>:  No.\n<Answer3>:  No."
+        },
+        "4": {
+            "utterance": "Are the weekends more expensive than weekdays?",
+            "gold out": "<Answer3>:Yes",
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-pricerange\": expensive, \"restaurant-food\": Chinese, \"restaurant-area\": centre]\n<Answer2>:  No.\n<Answer3>:  No."
+        }
+    },
+    "213": {
+        "0": {
+            "utterance": "I AM looking for a restaurant. The restaurant should be in the expensive price range and should be in the east.",
+            "gold out": {
+                "restaurant-area": [
+                    "east"
+                ],
+                "restaurant-pricerange": [
+                    "expensive"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-pricerange\": expensive, \"restaurant-area\": east]\n<Answer2>:  No.\n<Answer3>:  No."
+        },
+        "2": {
+            "utterance": "During the day, how sunny is it?",
+            "gold out": "<Answer3>:Yes",
+            "GPT_Out": "<Answer1>: No.\n    <Answer2>:  No.\n    <Answer3>:Yes."
+        }
+    },
+    "214": {
+        "0": {
+            "utterance": "I'm looking for a restaurant in a moderate price range.",
+            "gold out": {
+                "restaurant-pricerange": [
+                    "moderate"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-pricerange\": moderate]\n    <Answer2>:  No.\n    <Answer3>:  No.\n    ### End of example"
+        },
+        "2": {
+            "utterance": "I would like a moderate price range and in the centre. Would you be able to book a table for friday at 19:30? It would be for 2.",
+            "gold out": {
+                "restaurant-area": [
+                    "centre"
+                ],
+                "restaurant-pricerange": [
+                    "moderate"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-pricerange\": moderate, \"restaurant-area\": centre, \"restaurant-bookday\": Friday, \"restaurant-booktime\": 19:30, \"restaurant-bookpeople\": 2]\n<Answer2>:  No.\n<Answer3>:  No."
+        },
+        "4": {
+            "utterance": "Do prices go up around the holidays?",
+            "gold out": "<Answer3>:Yes",
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-pricerange\": moderate, \"restaurant-area\": centre, \"restaurant-bookday\": Friday, \"restaurant-booktime\": 19:30, \"restaurant-bookpeople\": 2]\n<Answer2>:  No.\n<Answer3>:  No."
+        }
+    },
+    "215": {
+        "0": {
+            "utterance": "Is the tip included in the bill?",
+            "gold out": "<Answer3>:Yes",
+            "GPT_Out": "<Answer1>: No.\n<Answer2>:  No.\n<Answer3>:Yes."
+        }
+    },
+    "216": {
+        "0": {
+            "utterance": "I am looking for an expensive restaurant that serves British food please.",
+            "gold out": {
+                "restaurant-food": [
+                    "british"
+                ],
+                "restaurant-pricerange": [
+                    "expensive"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-pricerange\": expensive, \"restaurant-food\": British]\n<Answer2>:  No.\n<Answer3>:  No."
+        },
+        "2": {
+            "utterance": "How sunny is it during the day?",
+            "gold out": "<Answer3>:Yes",
+            "GPT_Out": "<Answer1>: No.\n<Answer2>: No.\n<Answer3>:Yes."
+        }
+    },
+    "217": {
+        "0": {
+            "utterance": "I'm so hungry! Can you find me an expensive restaurant?",
+            "gold out": {
+                "restaurant-pricerange": [
+                    "expensive"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-pricerange\": expensive]\n<Answer2>:  No.\n<Answer3>:  No."
+        },
+        "2": {
+            "utterance": "Actually, I'd prefer some good German food. Is there an expensive German restaurant in the city centre?",
+            "gold out": {
+                "restaurant-area": [
+                    "centre"
+                ],
+                "restaurant-food": [
+                    "german"
+                ],
+                "restaurant-pricerange": [
+                    "expensive"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-pricerange\": expensive, \"restaurant-food\": German]\n<Answer2>: Yes. User has asked a question about the following slots: [\"restaurant-food\"]\n<Answer3>: No."
+        },
+        "4": {
+            "utterance": "How about one that serves mediterranean food in the same parameters?",
+            "gold out": {
+                "restaurant-area": [
+                    "centre"
+                ],
+                "restaurant-food": [
+                    "mediterranean"
+                ],
+                "restaurant-pricerange": [
+                    "expensive"
+                ]
+            },
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-pricerange\": expensive, \"restaurant-food\": German, \"restaurant-area\": city centre]\n<Answer2>: No.\n<Answer3>: No."
+        },
+        "6": {
+            "utterance": "In this pricing range, what kind of meals do customers normally prefer?",
+            "gold out": "<Answer3>:Yes",
+            "GPT_Out": "<Answer1>: Yes. User has provided the following slot values: [\"restaurant-pricerange\": expensive, \"restaurant-food\": German, \"restaurant-area\": centre]\n<Answer2>:  No.\n<Answer3>:  No."
+        }
+    }
+}
