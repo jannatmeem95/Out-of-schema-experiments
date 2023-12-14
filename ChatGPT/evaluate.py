@@ -155,6 +155,14 @@ def readFile(model_name, dirname):
 
 def main():
     dirname = sys.argv[1]
-    model_name = sys.argv[2]
+    n = sys.argv[2]
+
+    if n=="4":
+        model_name = "gpt-4"
+        print("gpt-4")
+    else:
+        model_name = "gpt-3.5-turbo"
+        print("gpt-3.5-turbo")
+    
 
     readFile(model_name,dirname)
